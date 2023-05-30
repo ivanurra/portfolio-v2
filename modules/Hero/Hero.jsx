@@ -1,5 +1,5 @@
 export const Hero = () => {
   return (
-    <div>Hero</div>
+    <div class="w-100 flex justify-start">Hero</div>
   )
 }
