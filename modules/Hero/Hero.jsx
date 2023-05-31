@@ -1,5 +1,8 @@
 export const Hero = () => {
   return (
-    <div class="w-100 flex justify-start">Hero</div>
-  )
-}
+    <div>
+      <p class="not-italic">Hi, my name is</p>
+      <p class="not-italic">Iván Urra</p>
+    </div>
+  );
+};
