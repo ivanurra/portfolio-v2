@@ -8,7 +8,12 @@ module.exports = {
     "./modules/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "navbar-color": "#161616",
+        "green-primary": "#1de49f",
+      },
+    },
   },
   variants: {},
   plugins: [],
