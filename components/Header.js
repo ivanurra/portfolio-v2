@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,7 +17,7 @@ export const Header = () => {
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <a href="/">
-                <span className="text-white font-bold text-lg">
+                <span className="text-white font-bold text-2xl">
                   ivanurra<span className="text-green-primary">.dev</span>
                 </span>
               </a>
@@ -24,30 +25,54 @@ export const Header = () => {
           </div>
           <div className="hidden md:block ml-auto">
             <div className="flex items-center space-x-4">
-              <a
-                href="#"
-                className="text-white hover:text-green-primary px-3 py-2 rounded-md text-sm font-medium"
+              <Link
+                className="text-white hover:text-green-primary px-3 py-2 rounded-md text-sm font-medium cursor-pointer"
+                activeClass="active"
+                to="section1"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
               >
+                <span className="text-green-primary">01. </span>
                 About
-              </a>
-              <a
-                href="#"
-                className="text-white hover:text-green-primary px-3 py-2 rounded-md text-sm font-medium"
+              </Link>
+              <Link
+                className="text-white hover:text-green-primary px-3 py-2 rounded-md text-sm font-medium cursor-pointer"
+                activeClass="active"
+                to="section2"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
               >
+                <span className="text-green-primary">02. </span>
                 Jobs
-              </a>
-              <a
-                href="#"
-                className="text-white hover:text-green-primary px-3 py-2 rounded-md text-sm font-medium"
+              </Link>
+              <Link
+                className="text-white hover:text-green-primary px-3 py-2 rounded-md text-sm font-medium cursor-pointer"
+                activeClass="active"
+                to="section3"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
               >
+                <span className="text-green-primary">03. </span>
                 Portfolio
-              </a>
-              <a
-                href="#"
-                className="text-white hover:text-green-primary px-3 py-2 rounded-md text-sm font-medium"
+              </Link>
+              <Link
+                className="text-white hover:text-green-primary px-3 py-2 rounded-md text-sm font-medium cursor-pointer"
+                activeClass="active"
+                to="section4"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
               >
+                <span className="text-green-primary">04. </span>
                 Contact
-              </a>
+              </Link>
             </div>
           </div>
           <div className="-mr-2 flex md:hidden">
@@ -100,30 +125,54 @@ export const Header = () => {
       {isMenuOpen && (
         <div className="md:hidden" id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <a
-              href="#"
-              className="text-white hover:text-green-primary block px-3 py-2 rounded-md text-base font-medium"
+            <Link
+              className="text-white hover:text-green-primary block px-3 py-2 rounded-md text-base font-medium cursor-pointer"
+              activeClass="active"
+              to="section1"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
             >
+              <span className="text-green-primary">01. </span>
               About
-            </a>
-            <a
-              href="#"
-              className="text-white hover:text-green-primary block px-3 py-2 rounded-md text-base font-medium"
+            </Link>
+            <Link
+              className="text-white hover:text-green-primary block px-3 py-2 rounded-md text-base font-medium cursor-pointer"
+              activeClass="active"
+              to="section2"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
             >
+              <span className="text-green-primary">02. </span>
               Jobs
-            </a>
-            <a
-              href="#"
-              className="text-white hover:text-green-primary block px-3 py-2 rounded-md text-base font-medium"
+            </Link>
+            <Link
+              className="text-white hover:text-green-primary block px-3 py-2 rounded-md text-base font-medium cursor-pointer"
+              activeClass="active"
+              to="section3"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
             >
+              <span className="text-green-primary">03. </span>
               Portfolio
-            </a>
-            <a
-              href="#"
-              className="text-white hover:text-green-primary block px-3 py-2 rounded-md text-base font-medium"
+            </Link>
+            <Link
+              className="text-white hover:text-green-primary block px-3 py-2 rounded-md text-base font-medium cursor-pointer"
+              activeClass="active"
+              to="section4"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
             >
+              <span className="text-green-primary">04. </span>
               Contact
-            </a>
+            </Link>
           </div>
         </div>
       )}

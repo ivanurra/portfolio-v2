@@ -6,10 +6,18 @@ export default function Home() {
     <main className="flex min-h-screen flex-col justify-between w-full">
       <Header />
       <Hero />
-      <About />
-      <Jobs />
-      <Portfolio />
-      <Contact />
+      <section id="section1">
+        <About />
+      </section>
+      <section id="section2">
+        <Jobs />
+      </section>
+      <section id="section3">
+        <Portfolio />
+      </section>
+      <section id="section4">
+        <Contact />
+      </section>
       <Footer />
     </main>
   );
