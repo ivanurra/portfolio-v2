@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "navbar-color": "#161616",
+        "navbar-color": "#151828",
         "green-primary": "#1de49f",
       },
     },

@@ -17,7 +17,7 @@ export const Header = () => {
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <a href="/">
-                <span className="text-white font-bold text-2xl">
+                <span className="text-font-color-rgb font-bold text-2xl">
                   ivanurra<span className="text-green-primary">.dev</span>
                 </span>
               </a>
@@ -26,7 +26,7 @@ export const Header = () => {
           <div className="hidden md:block ml-auto">
             <div className="flex items-center space-x-4">
               <Link
-                className="text-white hover:text-green-primary px-3 py-2 rounded-md text-sm font-medium cursor-pointer"
+                className="text-font-color-rgb hover:text-green-primary px-3 py-2 rounded-md text-sm font-medium cursor-pointer"
                 activeClass="active"
                 to="section1"
                 spy={true}
@@ -38,7 +38,7 @@ export const Header = () => {
                 About
               </Link>
               <Link
-                className="text-white hover:text-green-primary px-3 py-2 rounded-md text-sm font-medium cursor-pointer"
+                className="text-font-color-rgb hover:text-green-primary px-3 py-2 rounded-md text-sm font-medium cursor-pointer"
                 activeClass="active"
                 to="section2"
                 spy={true}
@@ -50,7 +50,7 @@ export const Header = () => {
                 Jobs
               </Link>
               <Link
-                className="text-white hover:text-green-primary px-3 py-2 rounded-md text-sm font-medium cursor-pointer"
+                className="text-font-color-rgb hover:text-green-primary px-3 py-2 rounded-md text-sm font-medium cursor-pointer"
                 activeClass="active"
                 to="section3"
                 spy={true}
@@ -62,7 +62,7 @@ export const Header = () => {
                 Portfolio
               </Link>
               <Link
-                className="text-white hover:text-green-primary px-3 py-2 rounded-md text-sm font-medium cursor-pointer"
+                className="text-font-color-rgb hover:text-green-primary px-3 py-2 rounded-md text-sm font-medium cursor-pointer"
                 activeClass="active"
                 to="section4"
                 spy={true}
@@ -126,7 +126,7 @@ export const Header = () => {
         <div className="md:hidden" id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <Link
-              className="text-white hover:text-green-primary block px-3 py-2 rounded-md text-base font-medium cursor-pointer"
+              className="text-font-color-rgb hover:text-green-primary block px-3 py-2 rounded-md text-base font-medium cursor-pointer"
               activeClass="active"
               to="section1"
               spy={true}
@@ -138,7 +138,7 @@ export const Header = () => {
               About
             </Link>
             <Link
-              className="text-white hover:text-green-primary block px-3 py-2 rounded-md text-base font-medium cursor-pointer"
+              className="text-font-color-rgb hover:text-green-primary block px-3 py-2 rounded-md text-base font-medium cursor-pointer"
               activeClass="active"
               to="section2"
               spy={true}
@@ -150,7 +150,7 @@ export const Header = () => {
               Jobs
             </Link>
             <Link
-              className="text-white hover:text-green-primary block px-3 py-2 rounded-md text-base font-medium cursor-pointer"
+              className="text-font-color-rgb hover:text-green-primary block px-3 py-2 rounded-md text-base font-medium cursor-pointer"
               activeClass="active"
               to="section3"
               spy={true}
@@ -162,7 +162,7 @@ export const Header = () => {
               Portfolio
             </Link>
             <Link
-              className="text-white hover:text-green-primary block px-3 py-2 rounded-md text-base font-medium cursor-pointer"
+              className="text-font-color-rgb hover:text-green-primary block px-3 py-2 rounded-md text-base font-medium cursor-pointer"
               activeClass="active"
               to="section4"
               spy={true}
