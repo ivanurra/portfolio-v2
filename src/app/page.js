@@ -1,3 +1,5 @@
+"use client";
+
 import { Footer, Header } from "../../components";
 import { About, Contact, Hero, Jobs, Portfolio } from "../../modules";
 
@@ -10,9 +12,7 @@ export default function Home() {
           <Hero />
         </div>
         <div className="col-span-1 md:col-span-2">
-          <div 
-          className="md:overflow-y-auto md:h-screen p-12"
-          >
+          <div className="md:overflow-y-auto md:h-screen p-12">
             <section id="section1">
               <About />
             </section>
