@@ -6,11 +6,13 @@ export default function Home() {
     <main className="flex min-h-screen flex-col justify-between w-full">
       {/* <Header /> */}
       <div className="grid grid-cols-1 md:grid-cols-3">
-        <div className="col-span-1 md:col-span-1 p-10">
+        <div className="col-span-1 md:col-span-1 p-12">
           <Hero />
         </div>
         <div className="col-span-1 md:col-span-2">
-          <div className="overflow-y-auto h-screen">
+          <div 
+          className="md:overflow-y-auto md:h-screen p-12"
+          >
             <section id="section1">
               <About />
             </section>
