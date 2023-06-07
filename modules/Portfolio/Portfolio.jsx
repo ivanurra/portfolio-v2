@@ -1,7 +1,7 @@
 export const Portfolio = () => {
   return (
-    <div>
-      <h1>Portfolio</h1>{" "}
+    <div className="mt-8">
+      <h1>Projects</h1>{" "}
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate
         non turpis vitae mollis. Mauris convallis condimentum lobortis. Ut

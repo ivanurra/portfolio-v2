@@ -11,3 +11,7 @@ body {
   color: rgb(var(--font-color-rgb));
   background: rgb(var(--background-rgb));
 }
+
+.scrollable-column {
+  height: 100vh; /* O la altura deseada */
+}

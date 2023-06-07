@@ -1,5 +1,3 @@
-"use client";
-
 import { Navigation } from "../../components";
 
 export const Hero = () => {
@@ -9,7 +7,6 @@ export const Hero = () => {
       <p className="text-green-primary not-italic text-3xl">
         Full Stack Web Developer
       </p>
-      <Navigation/>
     </div>
   );
 };

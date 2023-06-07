@@ -1,6 +1,6 @@
 export const Jobs = () => {
   return (
-    <div>
+    <div className="mt-8">
       <h1>Jobs</h1>{" "}
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate
