@@ -1,36 +1,34 @@
 "use client";
 
-import { Footer, Header, Navigation } from "../../components";
+import { Navigation } from "../../components";
 import { About, Contact, Hero, Jobs, Portfolio } from "../../modules";
-import ScrollArea from "react-scrollbar";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col justify-between w-full">
-      {/* <Header /> */}
-      <div className="grid grid-cols-1 md:grid-cols-3">
-        <div className="col-span-1 md:col-span-1 p-12 z-10">
-          <Hero />
+    <div className="flex">
+      {/* 1st Column */}
+      <div className="w-1/4 h-screen p-12 fixed left-0 top-0">
+        <Hero />
+        <div className="overflow-y-auto">
           <Navigation />
         </div>
-        <div className="col-span-1 md:col-span-2 md:h-screen p-12 scrollable-column">
-          <ScrollArea>
-            <section id="section1">
-              <About />
-            </section>
-            <section id="section2">
-              <Jobs />
-            </section>
-            <section id="section3">
-              <Portfolio />
-            </section>
-            <section id="section4">
-              <Contact />
-            </section>
-          </ScrollArea>
-        </div>
       </div>
-      {/* <Footer /> */}
-    </main>
+
+      {/* 2nd Column */}
+      <div className="w-3/4 p-12 ml-auto">
+        <section id="section1">
+          <About />
+        </section>
+        <section id="section2">
+          <Jobs />
+        </section>
+        <section id="section3">
+          <Portfolio />
+        </section>
+        <section id="section4">
+          <Contact />
+        </section>
+      </div>
+    </div>
   );
 }
