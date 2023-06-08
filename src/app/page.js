@@ -5,9 +5,9 @@ import { About, Contact, Hero, Jobs, Portfolio } from "../../modules";
 
 export default function Home() {
   return (
-    <div className="flex">
+    <div className="flex flex-col">
       {/* 1st Column */}
-      <div className="w-1/4 h-screen p-12 fixed left-0 top-0">
+      <div className="md:w-1/4 md:h-screen p-12 md:fixed left-0 top-0">
         <Hero />
         <div className="overflow-y-auto">
           <Navigation />
@@ -15,7 +15,7 @@ export default function Home() {
       </div>
 
       {/* 2nd Column */}
-      <div className="w-3/4 p-12 ml-auto">
+      <div className="md:w-3/4 p-12 ml-auto">
         <section id="section1">
           <About />
         </section>
