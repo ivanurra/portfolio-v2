@@ -1,7 +1,7 @@
 export const Contact = () => {
   return (
-    <div className="mb-20 md:mb-60 md:p-8">
-      <h1>Contact</h1>
+    <div className="mb-20 md:mb-40 md:p-8">
+      <p className="text-4xl mb-4">Contact</p>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate
         non turpis vitae mollis. Mauris convallis condimentum lobortis. Ut

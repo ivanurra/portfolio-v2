@@ -1,7 +1,7 @@
 export const About = () => {
   return (
     <div className="mb-20 md:mb-40 md:p-8">
-      <h1>About</h1>
+      <p className="text-4xl mb-4">About</p>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate
         non turpis vitae mollis. Mauris convallis condimentum lobortis. Ut

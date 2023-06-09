@@ -1,6 +1,6 @@
 "use client";
 
-import { Navigation } from "../../components";
+import { Credits, Navigation, SocialMedia } from "../../components";
 import { About, Contact, Hero, Jobs, Portfolio } from "../../modules";
 
 export default function Home() {
@@ -11,6 +11,7 @@ export default function Home() {
         <Hero />
         <div className="overflow-y-auto">
           <Navigation />
+          <SocialMedia />
         </div>
       </div>
 
@@ -28,6 +29,7 @@ export default function Home() {
         <section id="section4">
           <Contact />
         </section>
+        <Credits />
       </div>
     </div>
   );
