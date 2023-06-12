@@ -2,7 +2,7 @@
 
 import { ButtonCV, Credits, Navigation, SocialMedia } from "../../components";
 
-import { About, Contact, Hero, Jobs, Portfolio } from "../../modules";
+import { About, Contact, Hero, Experience, Portfolio } from "../../modules";
 
 export default function Home() {
   return (
@@ -23,7 +23,7 @@ export default function Home() {
           <About />
         </section>
         <section id="section2">
-          <Jobs />
+          <Experience />
         </section>
         <section id="section3">
           <Portfolio />

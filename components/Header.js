@@ -47,7 +47,7 @@ export const Header = () => {
                 duration={500}
               >
                 <span className="text-green-primary">02. </span>
-                Jobs
+                Experience
               </Link>
               <Link
                 className="text-font-color-rgb hover:text-green-primary px-3 py-2 rounded-md text-sm font-medium cursor-pointer"
@@ -147,7 +147,7 @@ export const Header = () => {
               duration={500}
             >
               <span className="text-green-primary">02. </span>
-              Jobs
+              Experience
             </Link>
             <Link
               className="text-font-color-rgb hover:text-green-primary block px-3 py-2 rounded-md text-base font-medium cursor-pointer"

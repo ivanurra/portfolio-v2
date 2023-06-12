@@ -22,7 +22,7 @@ export const Navigation = () => {
           duration={1000}
           onSetActive={handleSetActiveLink}
         >
-          <span className="text-green-primary">01. </span>
+          {/* <span className="text-green-primary">01. </span> */}
           About
         </Link>
       </div>
@@ -38,8 +38,8 @@ export const Navigation = () => {
           duration={1000}
           onSetActive={handleSetActiveLink}
         >
-          <span className="text-green-primary">02. </span>
-          Jobs
+          {/* <span className="text-green-primary">02. </span> */}
+          Experience
         </Link>
       </div>
       <div className="mt-4">
@@ -54,7 +54,7 @@ export const Navigation = () => {
           duration={1000}
           onSetActive={handleSetActiveLink}
         >
-          <span className="text-green-primary">03. </span>
+          {/* <span className="text-green-primary">03. </span> */}
           Projects
         </Link>
       </div>
@@ -70,7 +70,7 @@ export const Navigation = () => {
           duration={1000}
           onSetActive={handleSetActiveLink}
         >
-          <span className="text-green-primary">04. </span>
+          {/* <span className="text-green-primary">04. </span> */}
           Contact
         </Link>
       </div>

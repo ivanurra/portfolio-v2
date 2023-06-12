@@ -32,8 +32,3 @@ body {
   background-color: #1de49f;
   transition: width 0.5s ease;
 }
-
-/* .active:hover::after,
-.active:focus::after {
-  width: 100%;
-} */

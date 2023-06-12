@@ -12,6 +12,8 @@ module.exports = {
       colors: {
         "navbar-color": "#151828",
         "green-primary": "#1de49f",
+        "green-secondary": "#0a573c",
+        "background-secondary": "rgb(50, 58, 93)",
         "font-color-primary": "rgb(227, 231, 239)",
         "font-color-secondary": "rgb(167, 171, 179)",
         "font-color-terciary": "rgb(132, 135, 141)",
