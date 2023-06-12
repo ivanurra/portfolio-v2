@@ -7,7 +7,7 @@ export const Experience = () => {
         target="_blank"
       >
         <p className="text-4xl mb-4">Experience</p>
-        <div className="md:grid md:grid-cols-2 hover:bg-background-secondary md:p-4">
+        <div className="md:grid md:grid-cols-2 hover:bg-background-secondary md:p-2">
           {/* 1st Column */}
           <div className="md:w-1/4">
             <p>2018-Present</p>
@@ -28,13 +28,13 @@ export const Experience = () => {
               <button class="rounded-full bg-green-secondary text-green-primary mt-8 w-16 h-8">
                 Stack
               </button>
-              <button class="rounded-full bg-green-secondary text-green-primary mt-8 w-16 h-8 ml-3">
+              <button class="rounded-full bg-green-secondary text-green-primary mt-8 w-16 h-8 ml-2">
                 Stack
               </button>
-              <button class="rounded-full bg-green-secondary text-green-primary mt-8 w-16 h-8 ml-3">
+              <button class="rounded-full bg-green-secondary text-green-primary mt-8 w-16 h-8 ml-2">
                 Stack
               </button>
-              <button class="rounded-full bg-green-secondary text-green-primary mt-8 w-16 h-8 ml-3">
+              <button class="rounded-full bg-green-secondary text-green-primary mt-8 w-16 h-8 ml-2">
                 Stack
               </button>
             </div>

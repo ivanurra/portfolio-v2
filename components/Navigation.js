@@ -10,7 +10,7 @@ export const Navigation = () => {
 
   return (
     <div className="hidden md:block">
-      <div className="mt-6">
+      <div className="mt-12">
         <Link
           className={`text-font-color-rgb hover:text-xl hover:font-bold cursor-pointer ${
             activeLink === "section1" ? "active" : ""

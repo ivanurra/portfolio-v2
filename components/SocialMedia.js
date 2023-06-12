@@ -1,8 +1,7 @@
 export const SocialMedia = () => {
   return (
-    <div className="mt-8">
+    <div className="mt-12">
       <div className="flex flex-row">
-        {/* Github */}
         <a
           className="hover:text-green-primary cursor-pointer"
           href="https://github.com/ivanurra"
@@ -17,7 +16,6 @@ export const SocialMedia = () => {
           </svg>
         </a>
 
-        {/* LinkedIn */}
         <a
           className="hover:text-green-primary cursor-pointer"
           href="https://www.linkedin.com/in/ivanurra/"
