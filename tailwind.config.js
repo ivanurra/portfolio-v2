@@ -19,6 +19,10 @@ module.exports = {
         "font-color-terciary": "rgb(132, 135, 141)",
       },
     },
+    container: {
+      center: true,
+      padding: '2rem',
+    },
   },
   variants: {},
   plugins: [],

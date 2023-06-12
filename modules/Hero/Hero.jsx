@@ -5,7 +5,7 @@ export const Hero = () => {
     <div>
       <p className="not-italic text-8xl">Iván Urra</p>
       <p className="text-green-primary not-italic text-3xl mt-2">
-        DevOps Developer
+        DevOps & Full Stack Web Developer
       </p>
     </div>
   );

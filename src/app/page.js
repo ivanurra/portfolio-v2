@@ -6,7 +6,7 @@ import { About, Contact, Hero, Experience, Portfolio } from "../../modules";
 
 export default function Home() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col md:container md:px-20">
       {/* 1st Column */}
       <div className="md:w-1/4 md:h-screen p-12 md:fixed left-0 top-0">
         <Hero />
