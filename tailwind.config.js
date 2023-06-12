@@ -13,6 +13,8 @@ module.exports = {
         "navbar-color": "#151828",
         "green-primary": "#1de49f",
         "font-color-primary": "rgb(227, 231, 239)",
+        "font-color-secondary": "rgb(167, 171, 179)",
+        "font-color-terciary": "rgb(132, 135, 141)",
       },
     },
   },
