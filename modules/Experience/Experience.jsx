@@ -1,3 +1,5 @@
+import { ButtonStack } from "../../components/ButtonStack";
+
 export const Experience = () => {
   return (
     <div className="mb-20 md:mb-40 md:p-8">
@@ -9,12 +11,12 @@ export const Experience = () => {
         <p className="text-4xl mb-4">Experience</p>
         <div className="md:grid md:grid-cols-2 hover:bg-background-secondary md:p-2">
           {/* 1st Column */}
-          <div className="md:w-1/4">
+          <div>
             <p>2018-Present</p>
           </div>
 
           {/* 2nd Column */}
-          <div className="md:w-3/4">
+          <div>
             <p className="mb-2">Secuoyas</p>
             <p className="mb-2">IT</p>
             <p>
@@ -25,18 +27,10 @@ export const Experience = () => {
               Etiam dictum iaculis nulla, vel lacinia tellus euismod molestie.
             </p>
             <div>
-              <button class="rounded-full bg-green-secondary text-green-primary mt-8 w-16 h-8">
-                Stack
-              </button>
-              <button class="rounded-full bg-green-secondary text-green-primary mt-8 w-16 h-8 ml-2">
-                Stack
-              </button>
-              <button class="rounded-full bg-green-secondary text-green-primary mt-8 w-16 h-8 ml-2">
-                Stack
-              </button>
-              <button class="rounded-full bg-green-secondary text-green-primary mt-8 w-16 h-8 ml-2">
-                Stack
-              </button>
+              <ButtonStack stack="NextJS" />
+              <ButtonStack stack="TailwindCSS" />
+              <ButtonStack stack="JavaScript" />
+              <ButtonStack stack="React" />
             </div>
           </div>
         </div>

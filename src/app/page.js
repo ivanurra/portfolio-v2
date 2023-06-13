@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="flex flex-col ">
       {/* 1st Column */}
-      <div className="md:w-2/4 md:h-screen p-12 md:fixed left-0 top-0 md:pl-60">
+      <div className="md:w-2/4 md:h-screen p-12 md:fixed left-0 top-0 md:pl-80">
         <Hero />
         <div className="overflow-y-auto">
           <Navigation />
