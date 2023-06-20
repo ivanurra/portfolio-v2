@@ -8,7 +8,7 @@ export const Experience = () => {
         className="cursor-pointer"
         target="_blank"
       >
-        <p className="text-4xl mb-4">Experience</p>
+        <p className="text-2xl mb-4">Experience</p>
         <div className="md:grid md:grid-cols-2 hover:bg-background-secondary md:p-2">
           {/* 1st Column */}
           <div>
