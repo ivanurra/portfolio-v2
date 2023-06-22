@@ -1,3 +1,3 @@
 ## portfolio v2
 
-Made with NextJS & TailwindCSS.
+The second iteration of ivanurra.dev built with NextJS & TailwindCSS and hosted with Vercel.
