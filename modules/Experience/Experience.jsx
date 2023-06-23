@@ -11,17 +11,18 @@ export const Experience = () => {
     <div>
       <div className="mb-12 md:p-8">
         <a
-          href="https://www.philotech.net/" d
+          href="https://www.philotech.net/"
+          d
           className="cursor-pointer"
           target="_blank"
           onMouseEnter={() => setIsGridHoveredJobOne(true)}
           onMouseLeave={() => setIsGridHoveredJobOne(false)}
         >
-          <p className="text-2xl mb-4">Experience</p>
+          {/* <p className="text-xl mb-4 font-bold">Experience</p> */}
           <div
             className={`md:grid grid-cols-4 ${
               isGridHoveredJobOne ? "bg-background-secondary" : ""
-            } md:p-2`}
+            } `}
           >
             {/* 1st Column */}
             <div className="md:col-span-1">
@@ -65,7 +66,7 @@ export const Experience = () => {
           <div
             className={`md:grid grid-cols-4 ${
               isGridHoveredJobTwo ? "bg-background-secondary" : ""
-            } md:p-2`}
+            }`}
           >
             {/* 1st Column */}
             <div className="md:col-span-1">
@@ -110,7 +111,7 @@ export const Experience = () => {
           <div
             className={`md:grid grid-cols-4 ${
               isGridHoveredJobThree ? "bg-background-secondary" : ""
-            } md:p-2`}
+            }`}
           >
             {/* 1st Column */}
             <div className="md:col-span-1">
@@ -154,7 +155,7 @@ export const Experience = () => {
           <div
             className={`md:grid grid-cols-4 ${
               isGridHoveredJobFour ? "bg-background-secondary" : ""
-            } md:p-2`}
+            } `}
           >
             {/* 1st Column */}
             <div className="md:col-span-1">
