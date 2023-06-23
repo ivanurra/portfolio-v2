@@ -12,7 +12,7 @@ module.exports = {
       colors: {
         "navbar-color": "#151828",
         "green-primary": "#1de49f",
-        "green-secondary": "#0a573c",
+        "green-secondary": "#07432e",
         "background-secondary": "rgb(50, 58, 93)",
         "font-color-primary": "rgb(227, 231, 239)",
         "font-color-secondary": "rgb(167, 162, 182)",
@@ -24,7 +24,7 @@ module.exports = {
       padding: "2rem",
     },
     fontSize: {
-      xs: "0.8rem",
+      xs: "0.7rem",
       sm: "0.8rem",
       base: "1rem",
       xl: "1.25rem",

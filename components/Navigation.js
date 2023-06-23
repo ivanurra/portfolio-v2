@@ -1,5 +1,5 @@
-import { Link } from "react-scroll";
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 
 export const Navigation = () => {
   const [activeLink, setActiveLink] = useState("");
@@ -22,7 +22,6 @@ export const Navigation = () => {
           duration={1000}
           onSetActive={handleSetActiveLink}
         >
-          {/* <span className="text-green-primary">01. </span> */}
           About
         </Link>
       </div>
@@ -38,11 +37,10 @@ export const Navigation = () => {
           duration={1000}
           onSetActive={handleSetActiveLink}
         >
-          {/* <span className="text-green-primary">02. </span> */}
           Experience
         </Link>
       </div>
-      <div className="mt-4">
+      {/* <div className="mt-4">
         <Link
           className={`text-font-color-rgb hover:text-xl hover:font-bold cursor-pointer ${
             activeLink === "section3" ? "active" : ""
@@ -54,10 +52,10 @@ export const Navigation = () => {
           duration={1000}
           onSetActive={handleSetActiveLink}
         >
-          {/* <span className="text-green-primary">03. </span> */}
+
           Projects
         </Link>
-      </div>
+      </div> */}
       <div className="mt-4">
         <Link
           className={`text-font-color-rgb hover:text-xl hover:font-bold cursor-pointer ${
@@ -70,7 +68,6 @@ export const Navigation = () => {
           duration={1000}
           onSetActive={handleSetActiveLink}
         >
-          {/* <span className="text-green-primary">04. </span> */}
           Contact
         </Link>
       </div>

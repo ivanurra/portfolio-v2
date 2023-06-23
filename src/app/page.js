@@ -25,12 +25,12 @@ export default function Home() {
         <section id="section2">
           <Experience />
         </section>
-        <section id="section3">
+        {/* <section id="section3">
           <Portfolio />
-        </section>
-        <section id="section4">
+        </section> */}
+        {/* <section id="section4">
           <Contact />
-        </section>
+        </section> */}
         <Credits />
       </div>
     </div>
