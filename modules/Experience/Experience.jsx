@@ -12,13 +12,12 @@ export const Experience = () => {
       <div className="mb-12 md:p-8">
         <a
           href="https://www.philotech.net/"
-          d
           className="cursor-pointer"
           target="_blank"
           onMouseEnter={() => setIsGridHoveredJobOne(true)}
           onMouseLeave={() => setIsGridHoveredJobOne(false)}
         >
-          {/* <p className="text-xl mb-4 font-bold">Experience</p> */}
+          <p className="text-xl mb-4 font-bold block lg:hidden">Experience</p>
           <div
             className={`md:grid grid-cols-4 ${
               isGridHoveredJobOne ? "bg-background-secondary" : ""
@@ -26,7 +25,9 @@ export const Experience = () => {
           >
             {/* 1st Column */}
             <div className="md:col-span-1">
-              <p className="text-sm text-font-color-secondary">JUN 2023 - Present</p>
+              <p className="text-sm text-font-color-secondary">
+                JUN 2023 - Present
+              </p>
             </div>
 
             {/* 2nd Column */}
@@ -38,7 +39,9 @@ export const Experience = () => {
               >
                 Philotech
               </p>
-              <p className="mb-2 text-sm text-font-color-secondary">DevOps Developer</p>
+              <p className="mb-2 text-sm text-font-color-secondary">
+                DevOps Developer
+              </p>
               <p className="text-sm text-font-color-secondary">
                 Provision of the infrastructure in a cloud environment for
                 microservices. Central contact person for application operation.
@@ -70,7 +73,9 @@ export const Experience = () => {
           >
             {/* 1st Column */}
             <div className="md:col-span-1">
-              <p className="text-sm text-font-color-secondary">AUG 2021 - JUN 2023</p>
+              <p className="text-sm text-font-color-secondary">
+                AUG 2021 - JUN 2023
+              </p>
             </div>
 
             {/* 2nd Column */}
@@ -82,7 +87,9 @@ export const Experience = () => {
               >
                 Secuoyas
               </p>
-              <p className="mb-2 text-sm text-font-color-secondary">Full Stack Web Developer</p>
+              <p className="mb-2 text-sm text-font-color-secondary">
+                Full Stack Web Developer
+              </p>
               <p className="text-sm text-font-color-secondary">
                 Write modern, performant, clean and maintainable code focused on
                 Griddo.io, the company's own CMS, which is used by the best
@@ -115,7 +122,9 @@ export const Experience = () => {
           >
             {/* 1st Column */}
             <div className="md:col-span-1">
-              <p className="text-sm text-font-color-secondary">MAR 2021 - AUG 2021</p>
+              <p className="text-sm text-font-color-secondary">
+                MAR 2021 - AUG 2021
+              </p>
             </div>
 
             {/* 2nd Column */}
@@ -127,7 +136,9 @@ export const Experience = () => {
               >
                 Auro
               </p>
-              <p className="mb-2 text-sm text-font-color-secondary">Full Stack Web Developer</p>
+              <p className="mb-2 text-sm text-font-color-secondary">
+                Full Stack Web Developer
+              </p>
               <p className="text-sm text-font-color-secondary">
                 Built and shipped the new Auro website. Worked closely with
                 designer and commercial team to develop the website using
@@ -159,7 +170,9 @@ export const Experience = () => {
           >
             {/* 1st Column */}
             <div className="md:col-span-1">
-              <p className="text-sm text-font-color-secondary">MAR 2019 - MAR 2021</p>
+              <p className="text-sm text-font-color-secondary">
+                MAR 2019 - MAR 2021
+              </p>
             </div>
 
             {/* 2nd Column */}
@@ -171,7 +184,9 @@ export const Experience = () => {
               >
                 Iberostar
               </p>
-              <p className="mb-2 text-sm text-font-color-secondary">IT Support Technician</p>
+              <p className="mb-2 text-sm text-font-color-secondary">
+                IT Support Technician
+              </p>
               <p className="text-sm text-font-color-secondary">
                 Performed high-level support to more than 50 hotels in EMEA
                 countries. Facilitated Cloud software installation and
