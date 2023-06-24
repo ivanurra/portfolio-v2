@@ -2,14 +2,41 @@ import { useState } from "react";
 import { ButtonStack } from "../../components";
 
 export const Experience = () => {
-  const [isHovered, setIsHovered] = useState(false);
+  const [isHovered1, setIsHovered1] = useState(false);
+  const [isHovered2, setIsHovered2] = useState(false);
+  const [isHovered3, setIsHovered3] = useState(false);
+  const [isHovered4, setIsHovered4] = useState(false);
 
-  const handleMouseEnter = () => {
-    setIsHovered(true);
+  const handleMouseEnter1 = () => {
+    setIsHovered1(true);
   };
 
-  const handleMouseLeave = () => {
-    setIsHovered(false);
+  const handleMouseLeave1 = () => {
+    setIsHovered1(false);
+  };
+
+  const handleMouseEnter2 = () => {
+    setIsHovered2(true);
+  };
+
+  const handleMouseLeave2 = () => {
+    setIsHovered2(false);
+  };
+
+  const handleMouseEnter3 = () => {
+    setIsHovered3(true);
+  };
+
+  const handleMouseLeave3 = () => {
+    setIsHovered3(false);
+  };
+
+  const handleMouseEnter4 = () => {
+    setIsHovered4(true);
+  };
+
+  const handleMouseLeave4 = () => {
+    setIsHovered4(false);
   };
   return (
     <div>
@@ -29,6 +56,8 @@ export const Experience = () => {
               href="https://www.philotech.net/"
               className="cursor-pointer flex flex-row hover:text-green-primary hover:fill-green-primary"
               target="_blank"
+              onMouseEnter={handleMouseEnter1}
+              onMouseLeave={handleMouseLeave1}
             >
               <div>
                 <p className="mb-2 text-base ">Philotech</p>
@@ -38,11 +67,9 @@ export const Experience = () => {
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
-                  className={`h-4 w-4 fill-current transition-transform ${
-                    isHovered ? "-translate-y-1" : ""
+                  className={`h-4 w-4 mt-1 fill-current transition-transform ${
+                    isHovered1 ? "-translate-y-1 translate-x-1" : ""
                   }`}
-                  onMouseEnter={handleMouseEnter}
-                  onMouseLeave={handleMouseLeave}
                 >
                   <path d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"></path>
                 </svg>
@@ -78,13 +105,27 @@ export const Experience = () => {
           {/* 2nd Column */}
           <div className="md:col-span-3">
             <a
-              href="https://secuoyas.com/"
-              className="cursor-pointer"
+              href="https://www.secuoyas.com/"
+              className="cursor-pointer flex flex-row hover:text-green-primary hover:fill-green-primary"
               target="_blank"
+              onMouseEnter={handleMouseEnter2}
+              onMouseLeave={handleMouseLeave2}
             >
-              <p className={`mb-2 text-base hover:text-green-primary`}>
-                Secuoyas
-              </p>
+              <div>
+                <p className="mb-2 text-base ">Secuoyas</p>
+              </div>
+
+              <div className="ml-1 relative">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  className={`h-4 w-4 mt-1 fill-current transition-transform ${
+                    isHovered2 ? "-translate-y-1 translate-x-1" : ""
+                  }`}
+                >
+                  <path d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"></path>
+                </svg>
+              </div>
             </a>
             <p className="mb-2 text-sm text-font-color-secondary">
               Full Stack Web Developer
@@ -118,10 +159,26 @@ export const Experience = () => {
           <div className="md:col-span-3">
             <a
               href="https://www.auro.travel/"
-              className="cursor-pointer"
+              className="cursor-pointer flex flex-row hover:text-green-primary hover:fill-green-primary"
               target="_blank"
+              onMouseEnter={handleMouseEnter3}
+              onMouseLeave={handleMouseLeave3}
             >
-              <p className={`mb-2 text-base hover:text-green-primary`}>Auro</p>
+              <div>
+                <p className="mb-2 text-base ">Auro</p>
+              </div>
+
+              <div className="ml-1 relative">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  className={`h-4 w-4 mt-1 fill-current transition-transform ${
+                    isHovered3 ? "-translate-y-1 translate-x-1" : ""
+                  }`}
+                >
+                  <path d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"></path>
+                </svg>
+              </div>
             </a>
             <p className="mb-2 text-sm text-font-color-secondary">
               Full Stack Web Developer
@@ -154,12 +211,26 @@ export const Experience = () => {
           <div className="md:col-span-3">
             <a
               href="https://www.iberostar.com/"
-              className="cursor-pointer"
+              className="cursor-pointer flex flex-row hover:text-green-primary hover:fill-green-primary"
               target="_blank"
+              onMouseEnter={handleMouseEnter4}
+              onMouseLeave={handleMouseLeave4}
             >
-              <p className={`mb-2 text-base hover:text-green-primary`}>
-                Iberostar
-              </p>
+              <div>
+                <p className="mb-2 text-base ">Iberostar</p>
+              </div>
+
+              <div className="ml-1 relative">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  className={`h-4 w-4 mt-1 fill-current transition-transform ${
+                    isHovered4 ? "-translate-y-1 translate-x-1" : ""
+                  }`}
+                >
+                  <path d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"></path>
+                </svg>
+              </div>
             </a>
             <p className="mb-2 text-sm text-font-color-secondary">
               IT Support Technician
