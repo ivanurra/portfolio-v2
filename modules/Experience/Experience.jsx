@@ -26,7 +26,7 @@ export const Experience = () => {
           >
             {/* 1st Column */}
             <div className="md:col-span-1">
-              <p className="text-sm">JUN 2023 - Present</p>
+              <p className="text-sm text-font-color-secondary">JUN 2023 - Present</p>
             </div>
 
             {/* 2nd Column */}
@@ -38,8 +38,8 @@ export const Experience = () => {
               >
                 Philotech
               </p>
-              <p className="mb-2 text-sm">DevOps Developer</p>
-              <p className="text-sm">
+              <p className="mb-2 text-sm text-font-color-secondary">DevOps Developer</p>
+              <p className="text-sm text-font-color-secondary">
                 Provision of the infrastructure in a cloud environment for
                 microservices. Central contact person for application operation.
                 Implementation of changes and deployments. Troubleshooting and
@@ -70,7 +70,7 @@ export const Experience = () => {
           >
             {/* 1st Column */}
             <div className="md:col-span-1">
-              <p className="text-sm">AUG 2021 - JUN 2023</p>
+              <p className="text-sm text-font-color-secondary">AUG 2021 - JUN 2023</p>
             </div>
 
             {/* 2nd Column */}
@@ -82,8 +82,8 @@ export const Experience = () => {
               >
                 Secuoyas
               </p>
-              <p className="mb-2 text-sm">Full Stack Web Developer</p>
-              <p className="text-sm">
+              <p className="mb-2 text-sm text-font-color-secondary">Full Stack Web Developer</p>
+              <p className="text-sm text-font-color-secondary">
                 Write modern, performant, clean and maintainable code focused on
                 Griddo.io, the company's own CMS, which is used by the best
                 universities in the country. Work with a variety of different
@@ -115,7 +115,7 @@ export const Experience = () => {
           >
             {/* 1st Column */}
             <div className="md:col-span-1">
-              <p className="text-sm">MAR 2021 - AUG 2021</p>
+              <p className="text-sm text-font-color-secondary">MAR 2021 - AUG 2021</p>
             </div>
 
             {/* 2nd Column */}
@@ -127,8 +127,8 @@ export const Experience = () => {
               >
                 Auro
               </p>
-              <p className="mb-2 text-sm">Full Stack Web Developer</p>
-              <p className="text-sm">
+              <p className="mb-2 text-sm text-font-color-secondary">Full Stack Web Developer</p>
+              <p className="text-sm text-font-color-secondary">
                 Built and shipped the new Auro website. Worked closely with
                 designer and commercial team to develop the website using
                 JavaScript, Vue, Nuxt and Vuetify. Developed and maintained code
@@ -159,7 +159,7 @@ export const Experience = () => {
           >
             {/* 1st Column */}
             <div className="md:col-span-1">
-              <p className="text-sm">MAR 2019 - MAR 2021</p>
+              <p className="text-sm text-font-color-secondary">MAR 2019 - MAR 2021</p>
             </div>
 
             {/* 2nd Column */}
@@ -171,8 +171,8 @@ export const Experience = () => {
               >
                 Iberostar
               </p>
-              <p className="mb-2 text-sm">IT Support Technician</p>
-              <p className="text-sm">
+              <p className="mb-2 text-sm text-font-color-secondary">IT Support Technician</p>
+              <p className="text-sm text-font-color-secondary">
                 Performed high-level support to more than 50 hotels in EMEA
                 countries. Facilitated Cloud software installation and
                 configuration in updates or openings of new hotels. As a team,

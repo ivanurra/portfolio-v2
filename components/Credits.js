@@ -1,7 +1,7 @@
 export const Credits = () => {
   return (
     <div className="mb-20 md:mb-60 md:p-8">
-      <p className="text-font-color-terciary">
+      <p className="text-font-color-terciary text-base">
         Designed and coded by yours truly. Built with{" "}
         <a
           className="text-font-color-secondary hover:text-green-primary cursor-pointer"
@@ -29,6 +29,10 @@ export const Credits = () => {
           Vercel
         </a>
         .
+      </p>
+      <p className="mt-6 text-font-color-terciary text-base">
+        {" "}
+        &copy; {new Date().getFullYear()} Iván Urra
       </p>
     </div>
   );

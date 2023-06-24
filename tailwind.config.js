@@ -15,7 +15,7 @@ module.exports = {
         "green-secondary": "#07432e",
         "background-secondary": "rgb(50, 58, 93)",
         "font-color-primary": "rgb(227, 231, 239)",
-        "font-color-secondary": "rgb(167, 162, 182)",
+        "font-color-secondary": "rgb(183, 178, 200)",
         "font-color-terciary": "rgb(132, 135, 141)",
       },
     },
