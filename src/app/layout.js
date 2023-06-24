@@ -5,7 +5,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "ivanurra.dev",
-  description: "ivanurra.dev",
+  description: "Ivan Urra - DevOps & Full Stack Web Developer",
+  site_name: "Ivan Urra - DevOps & Full Stack Web Developer",
+  url: "https://ivanurra.dev/",
+  type: "website",
+  image: "http://ivanurra.dev/mockup.jpg",
 };
 
 export default function RootLayout({ children }) {
