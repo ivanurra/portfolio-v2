@@ -84,12 +84,12 @@ export const Experience = () => {
               Implementation of changes and deployments. Troubleshooting and
               analysis of logs.
             </p>
-            {/* <div>
-                <ButtonStack stack="Docker" />
-                <ButtonStack stack="TailwindCSS" />
-                <ButtonStack stack="JavaScript" />
-                <ButtonStack stack="React" />
-              </div> */}
+            <div>
+              <ButtonStack stack="AWS" />
+              <ButtonStack stack="Docker" />
+              <ButtonStack stack="Kubernetes" />
+              <ButtonStack stack="Jenkins" />
+            </div>
           </div>
         </div>
       </div>
