@@ -1,4 +1,4 @@
-export const Portfolio = () => {
+export const Projects = () => {
   return (
     <div className="mb-20 md:mb-40 md:p-8">
       <p className="text-2xl mb-4">Projects</p>
@@ -42,30 +42,7 @@ export const Portfolio = () => {
         torquent per conubia nostra, per inceptos himenaeos. Suspendisse ac
         pretium nunc. Integer sit amet metus et magna tempus ultricies. Aliquam
         dapibus imperdiet nulla. Pellentesque at felis nec libero ornare egestas
-        sodales vel mauris. Nunc pulvinar nulla quis dui congue finibus. Aliquam
-        dignissim est eget consectetur facilisis. Donec interdum leo non sapien
-        scelerisque, vitae malesuada dui imperdiet. Quisque vitae ligula et nibh
-        accumsan aliquet. Suspendisse potenti. Donec posuere tempus velit
-        pretium maximus. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Vestibulum pretium eleifend
-        bibendum. Quisque sagittis tortor aliquam ante porta, ut semper mauris
-        sollicitudin. Morbi dignissim ligula leo, vel convallis nibh varius in.
-        Donec elementum, libero non feugiat pellentesque, arcu orci porta neque,
-        vel sagittis justo augue ut massa. Nullam vehicula enim diam, in
-        fermentum nisl egestas non. Donec ultrices placerat lacinia. Nullam
-        turpis turpis, rutrum sit amet efficitur sit amet, scelerisque non
-        libero. Mauris blandit feugiat varius. Etiam ipsum velit, iaculis ut
-        erat non, dapibus accumsan turpis. Phasellus rutrum nisl a libero
-        convallis, at porttitor nunc vestibulum. Pellentesque at nibh laoreet
-        magna fringilla rutrum. Vivamus sed ultricies mauris. Phasellus at felis
-        ut elit consequat commodo. Praesent metus lectus, dictum vitae vulputate
-        tincidunt, elementum quis leo. Sed eget lectus malesuada diam porta
-        eleifend. Praesent quis porta tortor, in condimentum lacus. Fusce
-        interdum mauris nec ligula vehicula consectetur. Aliquam erat volutpat.
-        Suspendisse vulputate mi et dolor egestas pharetra. Vestibulum placerat,
-        nunc id accumsan lobortis, leo nunc consectetur dui, quis euismod quam
-        erat ut ex. In accumsan lacus nulla. Phasellus metus sem, lacinia a urna
-        eu, efficitur porta lectus.
+        sodales vel mauris.
       </p>
     </div>
   );

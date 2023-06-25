@@ -1,8 +1,7 @@
 "use client";
 
 import { ButtonCV, Credits, Navigation, SocialMedia } from "../../components";
-
-import { About, Contact, Hero, Experience, Portfolio } from "../../modules";
+import { About, Hero, Experience } from "../../modules";
 
 export default function Home() {
   return (
@@ -25,12 +24,6 @@ export default function Home() {
         <section id="section2">
           <Experience />
         </section>
-        {/* <section id="section3">
-          <Portfolio />
-        </section> */}
-        {/* <section id="section4">
-          <Contact />
-        </section> */}
         <Credits />
       </div>
     </div>
