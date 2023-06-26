@@ -9,7 +9,7 @@ export const metadata = {
   site_name: "Ivan Urra - DevOps & Full Stack Web Developer",
   url: "https://ivanurra.dev/",
   type: "website",
-  image: "http://ivanurra.dev/mockup.jpg",
+  image: "https://ivanurra.dev/mockup.jpg",
 };
 
 export default function RootLayout({ children }) {
