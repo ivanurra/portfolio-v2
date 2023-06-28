@@ -1,49 +1,107 @@
+import { useState } from "react";
+import { ButtonStack } from "../../components";
+
 export const Projects = () => {
+  const [isHovered1, setIsHovered1] = useState(false);
+  const [isHovered2, setIsHovered2] = useState(false);
+  const [isHovered3, setIsHovered3] = useState(false);
+  const [isHovered4, setIsHovered4] = useState(false);
+  const [isHovered5, setIsHovered5] = useState(false);
+
+  const handleMouseEnter1 = () => {
+    setIsHovered1(true);
+  };
+
+  const handleMouseLeave1 = () => {
+    setIsHovered1(false);
+  };
+
+  const handleMouseEnter2 = () => {
+    setIsHovered2(true);
+  };
+
+  const handleMouseLeave2 = () => {
+    setIsHovered2(false);
+  };
+
+  const handleMouseEnter3 = () => {
+    setIsHovered3(true);
+  };
+
+  const handleMouseLeave3 = () => {
+    setIsHovered3(false);
+  };
+
+  const handleMouseEnter4 = () => {
+    setIsHovered4(true);
+  };
+
+  const handleMouseLeave4 = () => {
+    setIsHovered4(false);
+  };
+
+  const handleMouseEnter5 = () => {
+    setIsHovered5(true);
+  };
+
+  const handleMouseLeave5 = () => {
+    setIsHovered5(false);
+  };
   return (
-    <div className="mb-20 md:mb-40 md:p-8">
-      <p className="text-2xl mb-4">Projects</p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate
-        non turpis vitae mollis. Mauris convallis condimentum lobortis. Ut
-        interdum viverra vehicula. Donec odio orci, fringilla id nibh mollis,
-        commodo hendrerit dui. Morbi ornare molestie elit. Etiam dictum iaculis
-        nulla, vel lacinia tellus euismod molestie. Orci varius natoque
-        penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-        Aenean porttitor iaculis erat, in mattis urna blandit at. Sed ornare,
-        nisi eget tristique porta, urna quam dapibus lectus, quis ornare purus
-        justo id metus. Duis molestie sapien eu neque tempor tincidunt. Morbi
-        vel porttitor turpis. Curabitur viverra molestie urna, et condimentum
-        erat dapibus et. In ac leo vitae massa mattis tincidunt quis eget purus.
-        Curabitur varius accumsan porta. Duis pellentesque metus nisl, a
-        venenatis sapien suscipit vel. Vestibulum ante ipsum primis in faucibus
-        orci luctus et ultrices posuere cubilia curae; Etiam efficitur ipsum ac
-        elit cursus aliquet. Nunc sed vulputate dui. Nullam pretium efficitur
-        purus ac laoreet. Pellentesque fringilla arcu et sem fringilla, a
-        egestas dui semper. Sed nec efficitur tortor. Donec interdum metus diam,
-        eget blandit enim efficitur cursus. Vivamus lobortis felis quam, eget
-        vestibulum justo vulputate nec. Curabitur purus felis, rutrum sit amet
-        tincidunt eget, commodo vitae lacus. Integer lacus dui, ornare et ante
-        ut, tempor viverra magna. Maecenas maximus odio turpis, quis malesuada
-        neque condimentum faucibus. Suspendisse eu felis eu neque vulputate
-        auctor. Sed aliquam fermentum turpis, sit amet laoreet leo condimentum
-        elementum. Maecenas vulputate sagittis urna vehicula bibendum. In at
-        laoreet nunc. Sed sit amet rutrum ante. Suspendisse nec vestibulum arcu.
-        In a quam vitae justo blandit interdum. Suspendisse et libero nec sapien
-        ultricies aliquam id ac quam. Nam suscipit, libero eget porta vehicula,
-        massa diam iaculis ipsum, eget rhoncus odio odio non eros. Duis placerat
-        lectus ut tellus malesuada sodales. Sed lorem turpis, scelerisque eget
-        scelerisque ut, luctus vel dui. Fusce ac enim iaculis, cursus felis id,
-        rhoncus tellus. Quisque pellentesque ornare scelerisque. Sed eu aliquet
-        tellus. In auctor rhoncus dolor vel viverra. Curabitur quis porttitor
-        nibh, non rutrum augue. Proin eu tellus eget sapien pellentesque
-        pharetra. Nunc a facilisis tortor. Suspendisse convallis ullamcorper
-        leo, et vestibulum erat consectetur vel. Vestibulum consequat erat elit,
-        in bibendum magna congue in. Class aptent taciti sociosqu ad litora
-        torquent per conubia nostra, per inceptos himenaeos. Suspendisse ac
-        pretium nunc. Integer sit amet metus et magna tempus ultricies. Aliquam
-        dapibus imperdiet nulla. Pellentesque at felis nec libero ornare egestas
-        sodales vel mauris.
-      </p>
+    <div>
+      <div className="mb-20 md:p-8">
+        <p className="text-xl mb-4 font-bold block lg:hidden">Projects</p>
+        <div className={`md:grid grid-cols-4  `}>
+          {/* 1st Column */}
+          <div className="md:col-span-1">
+            <p className="text-sm text-font-color-secondary">
+              Photo here
+            </p>
+          </div>
+
+          {/* 2nd Column */}
+          <div className="md:col-span-3">
+            <a
+              href="https://www.philotech.net/"
+              className="cursor-pointer flex flex-row hover:text-green-primary hover:fill-green-primary"
+              target="_blank"
+              onMouseEnter={handleMouseEnter1}
+              onMouseLeave={handleMouseLeave1}
+            >
+              <div>
+                <p className="mb-2 text-base ">Project1</p>
+              </div>
+
+              <div className="ml-1 relative">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  className={`h-4 w-4 mt-1 fill-current transition-transform ${
+                    isHovered1 ? "-translate-y-1 translate-x-1" : ""
+                  }`}
+                >
+                  <path d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"></path>
+                </svg>
+              </div>
+            </a>
+            <p className="mb-2 text-sm text-font-color-secondary">
+              DevOps Developer
+            </p>
+            <p className="text-sm text-font-color-secondary">
+              Provision of the infrastructure in a cloud environment for
+              microservices. Central contact person for application operation.
+              Implementation of changes and deployments. Troubleshooting and
+              analysis of logs.
+            </p>
+            <div>
+              <ButtonStack stack="AWS" />
+              <ButtonStack stack="Docker" />
+              <ButtonStack stack="Kubernetes" />
+              <ButtonStack stack="Jenkins" />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

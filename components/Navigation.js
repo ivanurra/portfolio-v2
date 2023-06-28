@@ -48,27 +48,11 @@ export const Navigation = () => {
           to="section3"
           spy={true}
           smooth={true}
-          offset={typeof window !== "undefined" ? -window.innerHeight / 4 : 0}
+          offset={typeof window !== "undefined" ? -window.innerHeight / 30 : 0}
           duration={1000}
           onSetActive={handleSetActiveLink}
         >
-
           Projects
-        </Link>
-      </div> */}
-      {/* <div className="mt-4">
-        <Link
-          className={`text-font-color-rgb hover:text-xl hover:font-bold cursor-pointer ${
-            activeLink === "section4" ? "active" : ""
-          }`}
-          to="section4"
-          spy={true}
-          smooth={true}
-          offset={typeof window !== "undefined" ? -window.innerHeight / 4 : 0}
-          duration={1000}
-          onSetActive={handleSetActiveLink}
-        >
-          Contact
         </Link>
       </div> */}
     </div>
