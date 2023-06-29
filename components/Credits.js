@@ -1,6 +1,6 @@
 export const Credits = () => {
   return (
-    <div className="mb-20 md:mb-60 md:p-8">
+    <div className="mb-40 md:mb-96 md:p-8">
       <p className="text-font-color-terciary text-sm w-80">
         Designed and coded by yours truly. Built with{" "}
         <a

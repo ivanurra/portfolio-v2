@@ -26,6 +26,7 @@ export default function Home() {
         </section>
         {/* <section id="section3">
           <Projects />
+          <Credits />
         </section> */}
         <Credits />
       </div>

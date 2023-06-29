@@ -48,7 +48,7 @@ export const Navigation = () => {
           to="section3"
           spy={true}
           smooth={true}
-          offset={typeof window !== "undefined" ? -window.innerHeight / 30 : 0}
+          offset={typeof window !== "undefined" ? -window.innerHeight / 22 : 0}
           duration={1000}
           onSetActive={handleSetActiveLink}
         >
