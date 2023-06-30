@@ -40,7 +40,7 @@ export const Navigation = () => {
           Experience
         </Link>
       </div>
-      {/* <div className="mt-4">
+      <div className="mt-4">
         <Link
           className={`text-font-color-rgb hover:text-xl hover:font-bold cursor-pointer ${
             activeLink === "section3" ? "active" : ""
@@ -54,7 +54,7 @@ export const Navigation = () => {
         >
           Projects
         </Link>
-      </div> */}
+      </div>
     </div>
   );
 };

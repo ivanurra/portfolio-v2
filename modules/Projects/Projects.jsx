@@ -103,7 +103,7 @@ export const Projects = () => {
           {/* 2nd Column */}
           <div className="md:col-span-3">
             <a
-              href="https://www.philotech.net/"
+              href="https://github.com/ivanurra/portfolio-v1/"
               className="cursor-pointer flex flex-row hover:text-green-primary hover:fill-green-primary"
               target="_blank"
               onMouseEnter={handleMouseEnter2}
