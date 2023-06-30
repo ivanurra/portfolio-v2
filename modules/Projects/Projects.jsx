@@ -1,7 +1,10 @@
 import { useState } from "react";
 import Image from "next/image";
 import { ButtonStack } from "../../components";
-import project3Pic from "../../public/mockup.png";
+import project1Pic from "../../public/ivanurradevv2.webp";
+import project2Pic from "../../public/ivanurradevv1.webp";
+import project3Pic from "../../public/cinemabox.webp";
+import project4Pic from "../../public/politico.webp";
 
 export const Projects = () => {
   const [isHovered1, setIsHovered1] = useState(false);
@@ -45,16 +48,16 @@ export const Projects = () => {
     <div>
       <div className="mb-20 md:p-8">
         <p className="text-xl mb-4 font-bold block lg:hidden">Projects</p>
-        <div className={`md:grid grid-cols-4  `}>
+        <div className={`md:grid grid-cols-4`}>
           {/* 1st Column */}
-          <div className="md:col-span-1">
-            <Image src={project3Pic} alt="Picture of project" />
+          <div className="md:col-span-1 mb-4 pr-3">
+            <Image src={project1Pic} alt="Picture of project" />
           </div>
 
           {/* 2nd Column */}
           <div className="md:col-span-3">
             <a
-              href="https://www.philotech.net/"
+              href="https://ivanurra.dev/"
               className="cursor-pointer flex flex-row hover:text-green-primary hover:fill-green-primary"
               target="_blank"
               onMouseEnter={handleMouseEnter1}
@@ -91,10 +94,10 @@ export const Projects = () => {
         </div>
       </div>
       <div className="mb-20 md:p-8">
-        <div className={`md:grid grid-cols-4  `}>
+        <div className={`md:grid grid-cols-4`}>
           {/* 1st Column */}
-          <div className="md:col-span-1">
-            <Image src={project3Pic} alt="Picture of project" />
+          <div className="md:col-span-1 mb-4 pr-3">
+            <Image src={project2Pic} alt="Picture of project" />
           </div>
 
           {/* 2nd Column */}
@@ -139,14 +142,14 @@ export const Projects = () => {
       <div className="mb-20 md:p-8">
         <div className={`md:grid grid-cols-4  `}>
           {/* 1st Column */}
-          <div className="md:col-span-1">
+          <div className="md:col-span-1 mb-4 pr-3">
             <Image src={project3Pic} alt="Picture of project" />
           </div>
 
           {/* 2nd Column */}
           <div className="md:col-span-3">
             <a
-              href="https://www.philotech.net/"
+              href="https://cinemabox.netlify.app/"
               className="cursor-pointer flex flex-row hover:text-green-primary hover:fill-green-primary"
               target="_blank"
               onMouseEnter={handleMouseEnter3}
@@ -187,14 +190,14 @@ export const Projects = () => {
       <div className="mb-20 md:p-8">
         <div className={`md:grid grid-cols-4  `}>
           {/* 1st Column */}
-          <div className="md:col-span-1">
-            <Image src={project3Pic} alt="Picture of project" />
+          <div className="md:col-span-1 mb-4 pr-3">
+            <Image src={project4Pic} alt="Picture of project" />
           </div>
 
           {/* 2nd Column */}
           <div className="md:col-span-3">
             <a
-              href="https://www.philotech.net/"
+              href="https://ivanurra.github.io/elPolitico-videogame/"
               className="cursor-pointer flex flex-row hover:text-green-primary hover:fill-green-primary"
               target="_blank"
               onMouseEnter={handleMouseEnter4}
