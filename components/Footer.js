@@ -1,4 +1,4 @@
-export const Credits = () => {
+export const Footer = () => {
   return (
     <div>
       <div className="mb-40 md:mb-96 md:p-8">
