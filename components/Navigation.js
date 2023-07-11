@@ -12,7 +12,7 @@ export const Navigation = () => {
     <div className="hidden md:block">
       <div className="mt-12">
         <Link
-          className={`text-font-color-rgb hover:text-xl hover:font-bold cursor-pointer ${
+          className={`text-font-color-rgb hover:font-bold cursor-pointer ${
             activeLink === "section1" ? "active" : ""
           }`}
           to="section1"
@@ -27,7 +27,7 @@ export const Navigation = () => {
       </div>
       <div className="mt-4">
         <Link
-          className={`text-font-color-rgb hover:text-xl hover:font-bold cursor-pointer ${
+          className={`text-font-color-rgb hover:font-bold cursor-pointer ${
             activeLink === "section2" ? "active" : ""
           }`}
           to="section2"
@@ -42,7 +42,7 @@ export const Navigation = () => {
       </div>
       <div className="mt-4">
         <Link
-          className={`text-font-color-rgb hover:text-xl hover:font-bold cursor-pointer ${
+          className={`text-font-color-rgb hover:font-bold cursor-pointer ${
             activeLink === "section3" ? "active" : ""
           }`}
           to="section3"
