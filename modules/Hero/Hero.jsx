@@ -9,7 +9,7 @@ export const Hero = () => {
       </p>
       <div className="overflow-y-auto">
         <Navigation />
-        <ButtonCV />
+        <ButtonCV buttonCvText="Resume" />
         <SocialMedia />
       </div>
     </div>
