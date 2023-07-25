@@ -31,6 +31,7 @@ module.exports = {
       m: "1.1rem",
       l: "1.2rem",
       xl: "1.3rem",
+      xxl: "1.5rem",
       "2xl": "1.7rem",
       "3xl": "3rem",
       "4xl": "4rem",
