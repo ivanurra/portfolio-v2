@@ -5,12 +5,12 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "ivanurra.dev",
   description: "Ivan Urra - DevOps & Full Stack Web Developer",
-  site_name: "Ivan Urra - DevOps & Full Stack Web Developer",
-  url: "https://ivanurra.dev/",
-  type: "website",
   image: "https://ivanurra.dev/mockup.jpg",
+  site_name: "Ivan Urra - DevOps & Full Stack Web Developer",
+  title: "ivanurra.dev",
+  type: "website",
+  url: "https://ivanurra.dev/",
 };
 
 export default function RootLayout({ children }) {
