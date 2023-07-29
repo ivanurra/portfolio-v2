@@ -1,6 +1,6 @@
 export const SocialMedia = () => {
   return (
-    <div className="mt-12">
+    <div className="mt-14">
       <div className="flex flex-row">
         <a
           className="hover:text-green-primary cursor-pointer"
