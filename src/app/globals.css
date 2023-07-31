@@ -12,10 +12,6 @@ body {
   background: rgb(var(--background-rgb));
 }
 
-.scrollable-column {
-  height: 100vh;
-}
-
 .active {
   position: relative;
   font-weight: bold;
@@ -31,4 +27,8 @@ body {
   height: 2px;
   background-color: #1de49f;
   transition: width 0.5s ease;
+}
+
+.scrollable-column {
+  height: 100vh;
 }
