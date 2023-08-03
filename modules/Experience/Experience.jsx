@@ -62,7 +62,7 @@ export const Experience = () => {
           {/* 2nd Column */}
           <div className="md:col-span-3">
             <a
-              href="https://www.bertrandt.com/"
+              href="https://www.bertrandt.com/en/"
               className="cursor-pointer flex flex-row hover:text-green-primary hover:fill-green-primary"
               target="_blank"
               onMouseEnter={handleMouseEnter1}
