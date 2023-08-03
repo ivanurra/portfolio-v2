@@ -62,14 +62,14 @@ export const Experience = () => {
           {/* 2nd Column */}
           <div className="md:col-span-3">
             <a
-              href="https://www.philotech.net/"
+              href="https://www.bertrandt.com/"
               className="cursor-pointer flex flex-row hover:text-green-primary hover:fill-green-primary"
               target="_blank"
               onMouseEnter={handleMouseEnter1}
               onMouseLeave={handleMouseLeave1}
             >
               <div>
-                <p className="mb-2 text-base ">Philotech</p>
+                <p className="mb-2 text-base ">Bertrandt</p>
               </div>
 
               <div className="ml-1 relative">
