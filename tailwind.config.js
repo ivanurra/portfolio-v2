@@ -41,6 +41,6 @@ module.exports = {
       "8xl": "8rem",
     },
   },
-  variants: {},
   plugins: [],
+  variants: {},
 };
