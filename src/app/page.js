@@ -2,12 +2,12 @@
 
 import { Footer } from "../../components";
 import { About, Hero, Experience, Projects } from "../../modules";
-// import { GTag } from "../../lib/gtag/GTag";
+import { GTag } from "../../lib/gtag/GTag";
 
 export default function Home() {
   return (
     <div className="flex flex-col">
-      {/* <GTag /> */}
+      <GTag />
       <div className="md:w-2/4 md:h-screen p-10 md:fixed left-0 top-0 xl:pl-80 2xl:pl-96">
         <Hero />
       </div>
