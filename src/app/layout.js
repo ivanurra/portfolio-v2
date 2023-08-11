@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
+import { GTag } from "../../lib/gtag/GTag";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
         <meta property="og:url" content={metadata.url} />
         <meta property="og:site_name" content={metadata.site_name} />
       </Head>
+      <GTag />
       <body className={inter.className}>{children}</body>
     </html>
   );
