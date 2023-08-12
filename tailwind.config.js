@@ -18,7 +18,11 @@ module.exports = {
         "font-color-secondary": "rgb(183, 178, 200)",
         "font-color-terciary": "rgb(132, 135, 141)",
       },
+      spacing: {
+        "home": "650px",
+      },
     },
+
     container: {
       center: true,
       padding: "2rem",

@@ -6,11 +6,11 @@ import { About, Hero, Experience, Projects } from "../../modules";
 export default function Home() {
   return (
     <div className="flex flex-col">
-      <div className="md:w-2/4 md:h-screen p-10 md:fixed left-0 top-0 xl:pl-80 2xl:pl-96">
+      <div className="md:w-2/4 md:h-screen p-10 md:fixed left-0 top-0 lg:pl-32 xl:pl-64 2xl:pl-96">
         <Hero />
       </div>
       
-      <div className="md:w-2/4 p-10 ml-auto xl:pr-80 2xl:pr-96">
+      <div className="md:w-2/4 p-10 ml-auto lg:pr-32 xl:pr-64 2xl:pr-96">
         <section id="section1">
           <About />
         </section>
