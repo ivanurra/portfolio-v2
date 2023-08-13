@@ -55,7 +55,7 @@ export const Experience = () => {
           {/* 1st Column */}
           <div className="md:col-span-1">
             <p className="text-sm text-font-color-secondary">
-              JUN 2023 - Present
+              JUN 2023 - PRESENT
             </p>
           </div>
 
