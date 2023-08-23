@@ -19,7 +19,7 @@ module.exports = {
         "font-color-terciary": "rgb(132, 135, 141)",
       },
       spacing: {
-        "home": "700px",
+        "spacing-xxl": "700px",
       },
     },
 
