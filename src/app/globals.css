@@ -42,8 +42,8 @@ body {
   transform: translate(-50%, -50%);
   pointer-events: none;
   z-index: 9999;
-  box-shadow: 0 0 1200px rgba(50, 58, 93, 0.2); /* Difuminado más amplio y suave */
-  mix-blend-mode: screen; /* Efecto de luz */
+  box-shadow: 0 0 900px rgba(50, 58, 93, 0.2);
+  mix-blend-mode: screen;
 }
 
 .lantern-cursor::before {
@@ -52,11 +52,6 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: radial-gradient(rgba(50, 58, 93, 0.2), transparent); /* Gradiente radial de luz con opacidad reducida */
+  background: radial-gradient(rgba(50, 58, 93, 0.2), transparent);
   border-radius: inherit;
 }
-
-
-
-
-
