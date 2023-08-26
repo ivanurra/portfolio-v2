@@ -42,7 +42,7 @@ body {
   transform: translate(-50%, -50%);
   pointer-events: none;
   z-index: 9999;
-  box-shadow: 0 0 900px rgba(50, 58, 93, 0.2);
+  box-shadow: 0 0 800px rgba(50, 58, 93, 0.19);
   mix-blend-mode: screen;
 }
 
