@@ -34,24 +34,24 @@ body {
 }
 
 .lantern-cursor {
-  position: absolute;
-  width: 600px;
-  height: 600px;
   background-color: transparent;
   border-radius: 50%;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-  z-index: 9999;
   box-shadow: 0 0 800px rgba(50, 58, 93, 0.19);
+  height: 600px;
   mix-blend-mode: screen;
+  pointer-events: none;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  z-index: 9999;
 }
 
 .lantern-cursor::before {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
   background: radial-gradient(rgba(50, 58, 93, 0.2), transparent);
   border-radius: inherit;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
 }
