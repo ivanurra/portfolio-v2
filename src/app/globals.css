@@ -29,10 +29,6 @@ body {
   width: 100%;
 }
 
-.scrollable-column {
-  height: 100vh;
-}
-
 .lantern-cursor {
   background-color: transparent;
   border-radius: 50%;
@@ -54,4 +50,8 @@ body {
   height: 100%;
   position: absolute;
   width: 100%;
+}
+
+.scrollable-column {
+  height: 100vh;
 }
