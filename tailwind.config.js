@@ -10,13 +10,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "navbar-color": "#151828",
-        "green-primary": "#1de49f",
-        "green-secondary": "#053625",
         "background-secondary": "rgb(50, 58, 93)",
         "font-color-primary": "rgb(227, 231, 239)",
         "font-color-secondary": "rgb(183, 178, 200)",
         "font-color-terciary": "rgb(132, 135, 141)",
+        "green-primary": "#1de49f",
+        "green-secondary": "#053625",
+        "navbar-color": "#151828",
       },
       spacing: {
         "spacing-xxl": "700px",
