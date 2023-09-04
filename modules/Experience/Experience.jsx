@@ -94,6 +94,7 @@ export const Experience = () => {
               analysis of logs.
             </p>
             <div>
+              <ButtonStack stack="CI/CD" />
               <ButtonStack stack="AWS" />
               <ButtonStack stack="Docker" />
               <ButtonStack stack="Kubernetes" />
