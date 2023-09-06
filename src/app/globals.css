@@ -32,18 +32,18 @@ body {
 .lantern-cursor {
   background-color: transparent;
   border-radius: 50%;
-  box-shadow: 0 0 800px rgba(50, 58, 93, 0.19);
-  height: 600px;
+  box-shadow: 0 0 900px rgba(50, 58, 90, 0.18);
+  height: 500px;
   mix-blend-mode: screen;
   pointer-events: none;
   position: absolute;
   transform: translate(-50%, -50%);
-  width: 600px;
+  width: 500px;
   z-index: 9999;
 }
 
 .lantern-cursor::before {
-  background: radial-gradient(rgba(50, 58, 93, 0.2), transparent);
+  background: radial-gradient(rgba(50, 58, 90, 0.2), transparent);
   border-radius: inherit;
   content: "";
   display: block;
