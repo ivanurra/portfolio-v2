@@ -3,6 +3,7 @@ export const SocialMedia = () => {
     <div className="mt-14">
       <div className="flex flex-row">
         <a
+          aria-label="Ivan Urra's Github"
           className="hover:text-green-primary cursor-pointer"
           href="https://github.com/ivanurra"
           target="_blank"
@@ -17,6 +18,7 @@ export const SocialMedia = () => {
         </a>
 
         <a
+          aria-label="Ivan Urra's LinkedIn"
           className="hover:text-green-primary cursor-pointer"
           href="https://www.linkedin.com/in/ivanurra/"
           target="_blank"
