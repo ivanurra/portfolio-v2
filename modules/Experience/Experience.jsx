@@ -98,6 +98,7 @@ export const Experience = () => {
               <ButtonStack stack="AWS" />
               <ButtonStack stack="Docker" />
               <ButtonStack stack="Kubernetes" />
+              <ButtonStack stack="Terraform" />
               <ButtonStack stack="GitHub Actions" />
             </div>
           </div>
