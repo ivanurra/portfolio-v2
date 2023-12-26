@@ -49,6 +49,55 @@ export const Experience = () => {
   };
   return (
     <div>
+      {/* <div className="mb-12 md:p-8">
+        <p className="text-xl mb-4 font-bold block lg:hidden">Experience</p>
+        <div className={`md:grid grid-cols-4  `}>
+          <div className="md:col-span-1">
+            <p className="text-sm text-font-color-secondary">
+              JAN 2024 - PRESENT
+            </p>
+          </div>
+
+          <div className="md:col-span-3">
+            <a
+              href="https://www.google.es/"
+              className="cursor-pointer flex flex-row hover:text-green-primary hover:fill-green-primary"
+              target="_blank"
+              onMouseEnter={handleMouseEnter1}
+              onMouseLeave={handleMouseLeave1}
+            >
+              <div>
+                <p className="mb-2 text-base ">XXXXXXX</p>
+              </div>
+
+              <div className="ml-1 relative">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  className={`h-4 w-4 mt-1 fill-current transition-transform ${
+                    isHovered1 ? "-translate-y-1 translate-x-1" : ""
+                  }`}
+                >
+                  <path d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"></path>
+                </svg>
+              </div>
+            </a>
+            <p className="mb-2 text-sm text-font-color-secondary">
+              Full Stack Web Developer
+            </p>
+            <p className="text-sm text-font-color-secondary">
+              Provision of the infrastructure in a cloud environment for
+              microservices. Central contact person for application operation.
+              Implementation of changes and deployments. Troubleshooting and
+              analysis of logs.
+            </p>
+            <div>
+              <ButtonStack stack="AWS" />
+              <ButtonStack stack="Docker" />
+            </div>
+          </div>
+        </div>
+      </div> */}
       <div className="mb-12 md:p-8">
         <p className="text-xl mb-4 font-bold block lg:hidden">Experience</p>
         <div className={`md:grid grid-cols-4  `}>
