@@ -101,14 +101,12 @@ export const Experience = () => {
       <div className="mb-12 md:p-8">
         <p className="text-xl mb-4 font-bold block lg:hidden">Experience</p>
         <div className={`md:grid grid-cols-4  `}>
-          {/* 1st Column */}
           <div className="md:col-span-1">
             <p className="text-sm text-font-color-secondary">
               JUN 2023 - PRESENT
             </p>
           </div>
 
-          {/* 2nd Column */}
           <div className="md:col-span-3">
             <a
               href="https://www.bertrandt.com/en/"
@@ -154,14 +152,12 @@ export const Experience = () => {
       </div>
       <div className="mb-12 md:p-8">
         <div className={`md:grid grid-cols-4 `}>
-          {/* 1st Column */}
           <div className="md:col-span-1">
             <p className="text-sm text-font-color-secondary">
               AUG 2021 - JUN 2023
             </p>
           </div>
 
-          {/* 2nd Column */}
           <div className="md:col-span-3">
             <a
               href="https://www.secuoyas.com/"
@@ -207,14 +203,12 @@ export const Experience = () => {
       </div>
       <div className="mb-12 md:p-8">
         <div className={`md:grid grid-cols-4 `}>
-          {/* 1st Column */}
           <div className="md:col-span-1">
             <p className="text-sm text-font-color-secondary">
               MAR 2021 - AUG 2021
             </p>
           </div>
 
-          {/* 2nd Column */}
           <div className="md:col-span-3">
             <a
               href="https://www.auro.travel/"
@@ -259,14 +253,12 @@ export const Experience = () => {
       </div>
       <div className="mb-20 md:p-8">
         <div className={`md:grid grid-cols-4  `}>
-          {/* 1st Column */}
           <div className="md:col-span-1">
             <p className="text-sm text-font-color-secondary">
               MAR 2019 - MAR 2021
             </p>
           </div>
 
-          {/* 2nd Column */}
           <div className="md:col-span-3">
             <a
               href="https://www.iberostar.com/"
@@ -305,14 +297,12 @@ export const Experience = () => {
       </div>
       <div className="mb-20 md:p-8">
         <div className={`md:grid grid-cols-4  `}>
-          {/* 1st Column */}
           <div className="md:col-span-1">
             <p className="text-sm text-font-color-secondary">
               JAN 2016 - FEB 2017
             </p>
           </div>
 
-          {/* 2nd Column */}
           <div className="md:col-span-3">
             <a
               href="https://www.latamairlines.com/"
