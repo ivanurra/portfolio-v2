@@ -60,14 +60,14 @@ export const Experience = () => {
 
           <div className="md:col-span-3">
             <a
-              href="https://www.google.es/"
+              href="https://www.secuoyas.com/"
               className="cursor-pointer flex flex-row hover:text-green-primary hover:fill-green-primary"
               target="_blank"
-              onMouseEnter={handleMouseEnter1}
-              onMouseLeave={handleMouseLeave1}
+              onMouseEnter={handleMouseEnter2}
+              onMouseLeave={handleMouseLeave2}
             >
               <div>
-                <p className="mb-2 text-base ">XXXXXXX</p>
+                <p className="mb-2 text-base ">Secuoyas</p>
               </div>
 
               <div className="ml-1 relative">
@@ -86,14 +86,17 @@ export const Experience = () => {
               Full Stack Web Developer
             </p>
             <p className="text-sm text-font-color-secondary">
-              Provision of the infrastructure in a cloud environment for
-              microservices. Central contact person for application operation.
-              Implementation of changes and deployments. Troubleshooting and
-              analysis of logs.
+              Write modern, performant, clean and maintainable code focused on
+              Griddo.io, the company's own CMS, which is used by the best
+              universities in the country. Work with a variety of different
+              languages and frameworks such as JavaScript, React and Gatsby.
+              Communicate and collaborate with multi-disciplinary teams of
+              engineers, designers, and stakeholders on a daily basis.
             </p>
             <div>
-              <ButtonStack stack="AWS" />
-              <ButtonStack stack="Docker" />
+              <ButtonStack stack="JavaScript" />
+              <ButtonStack stack="React" />
+              <ButtonStack stack="Gatsby" />
             </div>
           </div>
         </div>
@@ -103,7 +106,7 @@ export const Experience = () => {
         <div className={`md:grid grid-cols-4  `}>
           <div className="md:col-span-1">
             <p className="text-sm text-font-color-secondary">
-              JUN 2023 - PRESENT
+              JUN 2023 - JAN 2024
             </p>
           </div>
 
