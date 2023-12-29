@@ -254,7 +254,8 @@ export const Experience = () => {
           </div>
         </div>
       </div>
-      <div className="mb-20 md:p-8">
+
+      {/* <div className="mb-20 md:p-8">
         <div className={`md:grid grid-cols-4  `}>
           <div className="md:col-span-1">
             <p className="text-sm text-font-color-secondary">
@@ -341,7 +342,7 @@ export const Experience = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
