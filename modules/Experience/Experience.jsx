@@ -5,8 +5,8 @@ export const Experience = () => {
   const [isHovered1, setIsHovered1] = useState(false);
   const [isHovered2, setIsHovered2] = useState(false);
   const [isHovered3, setIsHovered3] = useState(false);
-  const [isHovered4, setIsHovered4] = useState(false);
-  const [isHovered5, setIsHovered5] = useState(false);
+  // const [isHovered4, setIsHovered4] = useState(false);
+  // const [isHovered5, setIsHovered5] = useState(false);
 
   const handleMouseEnter1 = () => {
     setIsHovered1(true);
@@ -32,21 +32,21 @@ export const Experience = () => {
     setIsHovered3(false);
   };
 
-  const handleMouseEnter4 = () => {
-    setIsHovered4(true);
-  };
+  // const handleMouseEnter4 = () => {
+  //   setIsHovered4(true);
+  // };
 
-  const handleMouseLeave4 = () => {
-    setIsHovered4(false);
-  };
+  // const handleMouseLeave4 = () => {
+  //   setIsHovered4(false);
+  // };
 
-  const handleMouseEnter5 = () => {
-    setIsHovered5(true);
-  };
+  // const handleMouseEnter5 = () => {
+  //   setIsHovered5(true);
+  // };
 
-  const handleMouseLeave5 = () => {
-    setIsHovered5(false);
-  };
+  // const handleMouseLeave5 = () => {
+  //   setIsHovered5(false);
+  // };
   return (
     <div>
       {/* <div className="mb-12 md:p-8">
