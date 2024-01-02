@@ -1,4 +1,4 @@
-export const ButtonCV = ({buttonCvText}) => {
+export const ButtonCV = ({ buttonCvText }) => {
   return (
     <div className="mt-14">
       <a className="cta-resume" target="_blank" href="/resumeivanurra.pdf">
