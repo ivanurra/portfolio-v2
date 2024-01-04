@@ -49,12 +49,10 @@ export const Projects = () => {
       <div className="mb-20 md:p-8">
         <p className="text-xl mb-4 font-bold block lg:hidden">Projects</p>
         <div className={`md:grid grid-cols-4`}>
-          {/* 1st Column */}
           <div className="md:col-span-1 mb-4 pr-3">
             <Image src={project1Pic} alt="Picture of project" />
           </div>
 
-          {/* 2nd Column */}
           <div className="md:col-span-3">
             <a
               href="https://ivanurra.dev/"
@@ -95,12 +93,10 @@ export const Projects = () => {
       </div>
       <div className="mb-20 md:p-8">
         <div className={`md:grid grid-cols-4`}>
-          {/* 1st Column */}
           <div className="md:col-span-1 mb-4 pr-3">
             <Image src={project2Pic} alt="Picture of project" />
           </div>
 
-          {/* 2nd Column */}
           <div className="md:col-span-3">
             <a
               href="https://github.com/ivanurra/portfolio-v1/"
@@ -141,12 +137,10 @@ export const Projects = () => {
       </div>
       <div className="mb-20 md:p-8">
         <div className={`md:grid grid-cols-4  `}>
-          {/* 1st Column */}
           <div className="md:col-span-1 mb-4 pr-3">
             <Image src={project3Pic} alt="Picture of project" />
           </div>
 
-          {/* 2nd Column */}
           <div className="md:col-span-3">
             <a
               href="https://cinemabox.netlify.app/"
@@ -189,12 +183,10 @@ export const Projects = () => {
       </div>
       <div className="mb-20 md:p-8">
         <div className={`md:grid grid-cols-4  `}>
-          {/* 1st Column */}
           <div className="md:col-span-1 mb-4 pr-3">
             <Image src={project4Pic} alt="Picture of project" />
           </div>
 
-          {/* 2nd Column */}
           <div className="md:col-span-3">
             <a
               href="https://ivanurra.github.io/elPolitico-videogame/"
