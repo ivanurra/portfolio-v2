@@ -49,7 +49,7 @@ export const Experience = () => {
   // };
   return (
     <div>
-      {/* <div className="mb-12 md:p-8">
+      <div className="mb-12 md:p-8">
         <p className="text-xl mb-4 font-bold block lg:hidden">Experience</p>
         <div className={`md:grid grid-cols-4  `}>
           <div className="md:col-span-1">
@@ -82,7 +82,7 @@ export const Experience = () => {
                 </svg>
               </div>
             </a>
-            <p className="mb-2 text-sm text-font-color-secondary">
+            <p className="mb-2 text-base text-font-color-secondary">
               Full Stack Web Developer
             </p>
             <p className="text-sm text-font-color-secondary">
@@ -100,9 +100,8 @@ export const Experience = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
       <div className="mb-12 md:p-8">
-        <p className="text-xl mb-4 font-bold block lg:hidden">Experience</p>
         <div className={`md:grid grid-cols-4  `}>
           <div className="md:col-span-1">
             <p className="text-sm text-font-color-secondary">
@@ -134,7 +133,7 @@ export const Experience = () => {
                 </svg>
               </div>
             </a>
-            <p className="mb-2 text-sm text-font-color-secondary">
+            <p className="mb-2 text-base text-font-color-secondary">
               DevOps Developer
             </p>
             <p className="text-sm text-font-color-secondary">
@@ -185,7 +184,7 @@ export const Experience = () => {
                 </svg>
               </div>
             </a>
-            <p className="mb-2 text-sm text-font-color-secondary">
+            <p className="mb-2 text-base text-font-color-secondary">
               Full Stack Web Developer
             </p>
             <p className="text-sm text-font-color-secondary">
@@ -236,7 +235,7 @@ export const Experience = () => {
                 </svg>
               </div>
             </a>
-            <p className="mb-2 text-sm text-font-color-secondary">
+            <p className="mb-2 text-base text-font-color-secondary">
               Full Stack Web Developer
             </p>
             <p className="text-sm text-font-color-secondary">
