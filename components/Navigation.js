@@ -18,7 +18,9 @@ export const Navigation = () => {
           to="section1"
           spy={true}
           smooth={true}
-          offset={typeof window !== "undefined" ? -window.innerHeight / 21.5 : 0}
+          offset={
+            typeof window !== "undefined" ? -window.innerHeight / 21.5 : 0
+          }
           duration={1000}
           onSetActive={handleSetActiveLink}
         >
@@ -33,7 +35,9 @@ export const Navigation = () => {
           to="section2"
           spy={true}
           smooth={true}
-          offset={typeof window !== "undefined" ? -window.innerHeight / 21.5 : 0}
+          offset={
+            typeof window !== "undefined" ? -window.innerHeight / 21.5 : 0
+          }
           duration={1000}
           onSetActive={handleSetActiveLink}
         >
@@ -48,7 +52,9 @@ export const Navigation = () => {
           to="section3"
           spy={true}
           smooth={true}
-          offset={typeof window !== "undefined" ? -window.innerHeight / 21.5 : 0}
+          offset={
+            typeof window !== "undefined" ? -window.innerHeight / 21.5 : 0
+          }
           duration={1000}
           onSetActive={handleSetActiveLink}
         >

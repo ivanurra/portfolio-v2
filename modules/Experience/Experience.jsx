@@ -5,8 +5,7 @@ export const Experience = () => {
   const [isHovered1, setIsHovered1] = useState(false);
   const [isHovered2, setIsHovered2] = useState(false);
   const [isHovered3, setIsHovered3] = useState(false);
-  // const [isHovered4, setIsHovered4] = useState(false);
-  // const [isHovered5, setIsHovered5] = useState(false);
+  const [isHovered4, setIsHovered4] = useState(false);
 
   const handleMouseEnter1 = () => {
     setIsHovered1(true);
@@ -32,21 +31,14 @@ export const Experience = () => {
     setIsHovered3(false);
   };
 
-  // const handleMouseEnter4 = () => {
-  //   setIsHovered4(true);
-  // };
+  const handleMouseEnter4 = () => {
+    setIsHovered4(true);
+  };
 
-  // const handleMouseLeave4 = () => {
-  //   setIsHovered4(false);
-  // };
+  const handleMouseLeave4 = () => {
+    setIsHovered4(false);
+  };
 
-  // const handleMouseEnter5 = () => {
-  //   setIsHovered5(true);
-  // };
-
-  // const handleMouseLeave5 = () => {
-  //   setIsHovered5(false);
-  // };
   return (
     <div>
       <div className="mb-12 md:p-8">
@@ -63,8 +55,8 @@ export const Experience = () => {
               href="https://www.secuoyas.com/"
               className="cursor-pointer flex flex-row hover:text-green-primary hover:fill-green-primary"
               target="_blank"
-              onMouseEnter={handleMouseEnter2}
-              onMouseLeave={handleMouseLeave2}
+              onMouseEnter={handleMouseEnter1}
+              onMouseLeave={handleMouseLeave1}
             >
               <div>
                 <p className="mb-2 text-base ">Secuoyas</p>
@@ -114,8 +106,8 @@ export const Experience = () => {
               href="https://www.bertrandt.com/en/"
               className="cursor-pointer flex flex-row hover:text-green-primary hover:fill-green-primary"
               target="_blank"
-              onMouseEnter={handleMouseEnter1}
-              onMouseLeave={handleMouseLeave1}
+              onMouseEnter={handleMouseEnter2}
+              onMouseLeave={handleMouseLeave2}
             >
               <div>
                 <p className="mb-2 text-base ">Bertrandt</p>
@@ -126,7 +118,7 @@ export const Experience = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   className={`h-4 w-4 mt-1 fill-current transition-transform ${
-                    isHovered1 ? "-translate-y-1 translate-x-1" : ""
+                    isHovered2 ? "-translate-y-1 translate-x-1" : ""
                   }`}
                 >
                   <path d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"></path>
@@ -165,8 +157,8 @@ export const Experience = () => {
               href="https://www.secuoyas.com/"
               className="cursor-pointer flex flex-row hover:text-green-primary hover:fill-green-primary"
               target="_blank"
-              onMouseEnter={handleMouseEnter2}
-              onMouseLeave={handleMouseLeave2}
+              onMouseEnter={handleMouseEnter3}
+              onMouseLeave={handleMouseLeave3}
             >
               <div>
                 <p className="mb-2 text-base ">Secuoyas</p>
@@ -177,7 +169,7 @@ export const Experience = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   className={`h-4 w-4 mt-1 fill-current transition-transform ${
-                    isHovered2 ? "-translate-y-1 translate-x-1" : ""
+                    isHovered3 ? "-translate-y-1 translate-x-1" : ""
                   }`}
                 >
                   <path d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"></path>
@@ -216,8 +208,8 @@ export const Experience = () => {
               href="https://www.auro.travel/"
               className="cursor-pointer flex flex-row hover:text-green-primary hover:fill-green-primary"
               target="_blank"
-              onMouseEnter={handleMouseEnter3}
-              onMouseLeave={handleMouseLeave3}
+              onMouseEnter={handleMouseEnter4}
+              onMouseLeave={handleMouseLeave4}
             >
               <div>
                 <p className="mb-2 text-base ">Auro</p>
@@ -228,7 +220,7 @@ export const Experience = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   className={`h-4 w-4 mt-1 fill-current transition-transform ${
-                    isHovered3 ? "-translate-y-1 translate-x-1" : ""
+                    isHovered4 ? "-translate-y-1 translate-x-1" : ""
                   }`}
                 >
                   <path d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"></path>
@@ -253,95 +245,6 @@ export const Experience = () => {
           </div>
         </div>
       </div>
-
-      {/* <div className="mb-20 md:p-8">
-        <div className={`md:grid grid-cols-4  `}>
-          <div className="md:col-span-1">
-            <p className="text-sm text-font-color-secondary">
-              MAR 2019 - MAR 2021
-            </p>
-          </div>
-
-          <div className="md:col-span-3">
-            <a
-              href="https://www.iberostar.com/"
-              className="cursor-pointer flex flex-row hover:text-green-primary hover:fill-green-primary"
-              target="_blank"
-              onMouseEnter={handleMouseEnter4}
-              onMouseLeave={handleMouseLeave4}
-            >
-              <div>
-                <p className="mb-2 text-base ">Iberostar</p>
-              </div>
-
-              <div className="ml-1 relative">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  className={`h-4 w-4 mt-1 fill-current transition-transform ${
-                    isHovered4 ? "-translate-y-1 translate-x-1" : ""
-                  }`}
-                >
-                  <path d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"></path>
-                </svg>
-              </div>
-            </a>
-            <p className="mb-2 text-sm text-font-color-secondary">
-              IT Support Technician
-            </p>
-            <p className="text-sm text-font-color-secondary">
-              Performed high-level support to more than 50 hotels in EMEA
-              countries. Facilitated Cloud software installation and
-              configuration in updates or openings of new hotels. As a team, we
-              were able to reduce helpdesk tickets by 60%.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="mb-20 md:p-8">
-        <div className={`md:grid grid-cols-4  `}>
-          <div className="md:col-span-1">
-            <p className="text-sm text-font-color-secondary">
-              JAN 2016 - FEB 2017
-            </p>
-          </div>
-
-          <div className="md:col-span-3">
-            <a
-              href="https://www.latamairlines.com/"
-              className="cursor-pointer flex flex-row hover:text-green-primary hover:fill-green-primary"
-              target="_blank"
-              onMouseEnter={handleMouseEnter5}
-              onMouseLeave={handleMouseLeave5}
-            >
-              <div>
-                <p className="mb-2 text-base ">LATAM Airlines</p>
-              </div>
-
-              <div className="ml-1 relative">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  className={`h-4 w-4 mt-1 fill-current transition-transform ${
-                    isHovered5 ? "-translate-y-1 translate-x-1" : ""
-                  }`}
-                >
-                  <path d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"></path>
-                </svg>
-              </div>
-            </a>
-            <p className="mb-2 text-sm text-font-color-secondary">
-              IT Support Manager Europe & Asia
-            </p>
-            <p className="text-sm text-font-color-secondary">
-              Managed a cross-functional team of 5 in 3 locations (Madrid,
-              Frankfurt and Paris). Led operational continuity of all systems
-              and services that support business processes in Europe. Reduced
-              customer support calls by 80% and increased satisfaction by 90%.
-            </p>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };
