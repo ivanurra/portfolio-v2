@@ -79,9 +79,9 @@ export const Projects = () => {
             </a>
 
             <p className="text-sm text-font-color-secondary">
-              My new portfolio, built with Next.js (v13) and TailwindCSS. My
-              goal was to have a minimalist portfolio where I could show my
-              projects and facilitate contact with me.
+              My new portfolio, developed with Next.js (v13) and TailwindCSS.
+              The aim was to create a minimalist portfolio showcasing my
+              projects and providing easy contact options.
             </p>
             <div>
               <ButtonStack stack="NextJS" />
@@ -123,7 +123,7 @@ export const Projects = () => {
             </a>
 
             <p className="text-sm text-font-color-secondary">
-              My first and old portfolio as a developer. Built with React and
+              My initial portfolio as a developer, constructed using React and
               NextJS.
             </p>
             <div>
@@ -167,10 +167,10 @@ export const Projects = () => {
             </a>
 
             <p className="text-sm text-font-color-secondary">
-              It is a CRUD app about movies and TV shows. You will be able to
-              check the latest releases and the blockbusters of the moment. You
-              can save your favorite movie or TV show, of any era, so you don't
-              miss anything. Buy popcorn!
+              It's a CRUD app centered around movies and TV shows. You can
+              explore the latest releases and current blockbusters. Save your
+              favorite movies or TV shows from any era to ensure you don't miss
+              anything. Grab some popcorn!
             </p>
             <div>
               <ButtonStack stack="React" />
@@ -213,10 +213,10 @@ export const Projects = () => {
             </a>
 
             <p className="text-sm text-font-color-secondary">
-              Videogame created with the challenge of finishing it in just four
-              days. I used Canvas for the 2D graphics and it is developed with
-              JavaScript, HTML & CSS. It is a tribute to the videogames that I
-              played as a child.
+              A video game created with the challenge of completing it in just
+              four days. I utilized Canvas for the 2D graphics, and it is
+              developed with JavaScript, HTML, & CSS. This project serves as a
+              tribute to the video games of my childhood.
             </p>
             <div>
               <ButtonStack stack="JavaScript" />
