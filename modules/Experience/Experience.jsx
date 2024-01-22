@@ -78,12 +78,13 @@ export const Experience = () => {
               Full Stack Web Developer
             </p>
             <p className="text-sm text-font-color-secondary">
-              Write modern, performant, clean and maintainable code focused on
-              Griddo.io, the company's own CMS, which is used by the best
-              universities in the country. Work with a variety of different
-              languages and frameworks such as JavaScript, React and Gatsby.
-              Communicate and collaborate with multi-disciplinary teams of
-              engineers, designers, and stakeholders on a daily basis.
+              Develop modern, high-performance, clean, and maintainable code
+              with a focus on Griddo.io, the company's proprietary CMS, widely
+              utilized by top universities. Engage with various programming
+              languages and frameworks, including JavaScript, React, and Gatsby.
+              Communication and collaboration with cross-functional teams
+              composed of engineers, designers, and stakeholders on a daily
+              basis.
             </p>
             <div>
               <ButtonStack stack="JavaScript" />
@@ -129,10 +130,10 @@ export const Experience = () => {
               DevOps Developer
             </p>
             <p className="text-sm text-font-color-secondary">
-              Provision of the infrastructure in a cloud environment for
-              microservices. Central contact person for application operation.
-              Implementation of changes and deployments. Troubleshooting and
-              analysis of logs.
+              Provisioning infrastructure in a cloud environment for
+              microservices. Serving as the central point of contact for
+              application operation. Implementing changes and managing
+              deployments. Conducting troubleshooting and analysis of logs.
             </p>
             <div>
               <ButtonStack stack="AWS" />
@@ -180,12 +181,13 @@ export const Experience = () => {
               Full Stack Web Developer
             </p>
             <p className="text-sm text-font-color-secondary">
-              Write modern, performant, clean and maintainable code focused on
-              Griddo.io, the company's own CMS, which is used by the best
-              universities in the country. Work with a variety of different
-              languages and frameworks such as JavaScript, React and Gatsby.
-              Communicate and collaborate with multi-disciplinary teams of
-              engineers, designers, and stakeholders on a daily basis.
+              Develop modern, high-performance, clean, and maintainable code
+              with a focus on Griddo.io, the company's proprietary CMS, widely
+              utilized by top universities. Engage with various programming
+              languages and frameworks, including JavaScript, React, and Gatsby.
+              Communication and collaboration with cross-functional teams
+              composed of engineers, designers, and stakeholders on a daily
+              basis.
             </p>
             <div>
               <ButtonStack stack="JavaScript" />
@@ -231,10 +233,10 @@ export const Experience = () => {
               Full Stack Web Developer
             </p>
             <p className="text-sm text-font-color-secondary">
-              Built and shipped the new Auro website. Worked closely with
-              designer and commercial team to develop the website using
-              JavaScript, Vue, Nuxt and Vuetify. Developed and maintained code
-              for in-house projects primarily.
+              Built and launched the new Auro website. Collaborated closely with
+              the designer and commercial team to develop the website using
+              JavaScript, Vue, Nuxt, and Vuetify. Responsible for developing and
+              maintaining code for in-house projects predominantly.
             </p>
             <div>
               <ButtonStack stack="JavaScript" />
