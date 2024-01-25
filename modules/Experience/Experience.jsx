@@ -182,7 +182,7 @@ export const Experience = () => {
             </p>
             <p className="text-sm text-font-color-secondary">
               Develop modern, high-performance, clean, and maintainable code
-              with a focus on Griddo.io, the company's proprietary CMS, widely
+              with a focus on griddo.io, the company's proprietary CMS, widely
               utilized by top universities. Engage with various programming
               languages and frameworks, including JavaScript, React, and Gatsby.
               Communication and collaboration with cross-functional teams
