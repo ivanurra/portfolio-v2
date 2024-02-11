@@ -44,13 +44,19 @@ export const Projects = () => {
     setIsHovered4(false);
   };
 
+  const projectImages = {
+    project1: project1Pic,
+    project2: project2Pic,
+    project3: project3Pic,
+    project4: project4Pic,
+  };
   return (
     <div>
       <div className="mb-20 md:p-8">
         <p className="text-xl mb-4 font-bold block lg:hidden">Projects</p>
         <div className={`md:grid grid-cols-4`}>
           <div className="md:col-span-1 mb-4 pr-3">
-            <Image src={project1Pic} alt="Picture of project" />
+            <Image src={projectImages.project1} alt="Picture of project" />
           </div>
 
           <div className="md:col-span-3">
@@ -94,7 +100,7 @@ export const Projects = () => {
       <div className="mb-20 md:p-8">
         <div className={`md:grid grid-cols-4`}>
           <div className="md:col-span-1 mb-4 pr-3">
-            <Image src={project2Pic} alt="Picture of project" />
+            <Image src={projectImages.project2} alt="Picture of project" />
           </div>
 
           <div className="md:col-span-3">
@@ -138,7 +144,7 @@ export const Projects = () => {
       <div className="mb-20 md:p-8">
         <div className={`md:grid grid-cols-4  `}>
           <div className="md:col-span-1 mb-4 pr-3">
-            <Image src={project3Pic} alt="Picture of project" />
+            <Image src={projectImages.project3} alt="Picture of project" />
           </div>
 
           <div className="md:col-span-3">
@@ -184,7 +190,7 @@ export const Projects = () => {
       <div className="mb-20 md:p-8">
         <div className={`md:grid grid-cols-4  `}>
           <div className="md:col-span-1 mb-4 pr-3">
-            <Image src={project4Pic} alt="Picture of project" />
+            <Image src={projectImages.project4} alt="Picture of project" />
           </div>
 
           <div className="md:col-span-3">
