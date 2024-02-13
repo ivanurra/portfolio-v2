@@ -1,0 +1,38 @@
+[
+  {
+    "startDate": "JAN 2024",
+    "endDate": "PRESENT",
+    "company": "Secuoyas",
+    "jobTitle": "Full Stack Web Developer",
+    "website": "https://www.secuoyas.com/",
+    "description": "Develop modern, high-performance, clean, and maintainable code with a focus on Griddo.io, the company's proprietary CMS, widely utilized by top universities. Engage with various programming languages and frameworks, including JavaScript, React, and Gatsby. Communication and collaboration with cross-functional teams composed of engineers, designers, and stakeholders on a daily basis.",
+    "techStack": ["JavaScript", "React", "Gatsby"]
+  },
+  {
+    "startDate": "JUN 2023",
+    "endDate": "JAN 2024",
+    "company": "Bertrandt",
+    "jobTitle": "DevOps Developer",
+    "website": "https://www.bertrandt.com/en/",
+    "description": "Provisioning infrastructure in a cloud environment for microservices. Serving as the central point of contact for application operation. Implementing changes and managing deployments. Conducting troubleshooting and analysis of logs.",
+    "techStack": ["AWS", "Docker", "Kubernetes", "Terraform", "GitHub Actions"]
+  },
+  {
+    "startDate": "AUG 2021",
+    "endDate": "JUN 2023",
+    "company": "Secuoyas",
+    "jobTitle": "Full Stack Web Developer",
+    "website": "https://www.secuoyas.com/",
+    "description": "Develop modern, high-performance, clean, and maintainable code with a focus on griddo.io, the company's proprietary CMS, widely utilized by top universities. Engage with various programming languages and frameworks, including JavaScript, React, and Gatsby. Communication and collaboration with cross-functional teams composed of engineers, designers, and stakeholders on a daily basis.",
+    "techStack": ["JavaScript", "React", "Gatsby"]
+  },
+  {
+    "startDate": "MAR 2021",
+    "endDate": "AUG 2021",
+    "company": "Auro",
+    "jobTitle": "Full Stack Web Developer",
+    "website": "https://www.auro.travel/",
+    "description": "Built and launched the new Auro website. Collaborated closely with the designer and commercial team to develop the website using JavaScript, Vue, Nuxt, and Vuetify. Responsible for developing and maintaining code for in-house projects predominantly.",
+    "techStack": ["JavaScript", "Vue", "Nuxt", "Vuetify"]
+  }
+]

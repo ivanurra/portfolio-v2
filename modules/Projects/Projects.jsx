@@ -114,6 +114,7 @@ export const Projects = () => {
 
   return (
     <div>
+      <p className="text-xl mb-5 font-bold block lg:hidden">Projects</p>
       {projectsData.map((project, index) => (
         <Project key={index} {...project} />
       ))}
