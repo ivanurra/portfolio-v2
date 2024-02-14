@@ -1,13 +1,12 @@
 import { useState } from "react";
 import Image from "next/image";
 import { ButtonStack } from "../../components";
-import project1Pic from "../../public/ivanurradevv2.webp";
-import project2Pic from "../../public/ivanurradevv1.webp";
-import project3Pic from "../../public/cinemabox.webp";
-import project4Pic from "../../public/politico.webp";
+import projectData from "./projectsData.json";
 
 const Project = ({
   imgSrc,
+  imgWidth,
+  imgHeight,
   projectLink,
   projectName,
   projectDescription,
@@ -27,7 +26,12 @@ const Project = ({
     <div className="mb-20 md:p-8">
       <div className={`md:grid grid-cols-4`}>
         <div className="md:col-span-1 mb-4 pr-3">
-          <Image src={imgSrc} alt={`Picture of ${projectName}`} />
+          <Image
+            src={imgSrc}
+            alt={`Picture of ${projectName}`}
+            width={imgWidth}
+            height={imgHeight}
+          />
         </div>
 
         <div className="md:col-span-3">
@@ -70,52 +74,10 @@ const Project = ({
 };
 
 export const Projects = () => {
-  const projectImages = {
-    project1: project1Pic,
-    project2: project2Pic,
-    project3: project3Pic,
-    project4: project4Pic,
-  };
-
-  const projectsData = [
-    {
-      imgSrc: projectImages.project1,
-      projectLink: "https://ivanurra.dev/",
-      projectName: "ivanurra.dev (v2)",
-      projectDescription:
-        "My new portfolio, developed with Next.js (v13) and TailwindCSS. The aim was to create a minimalist portfolio showcasing my projects and providing easy contact options.",
-      stacks: ["NextJS", "React", "TailwindCSS"],
-    },
-    {
-      imgSrc: projectImages.project2,
-      projectLink: "https://github.com/ivanurra/portfolio-v1/",
-      projectName: "ivanurra.dev (v1)",
-      projectDescription:
-        "My initial portfolio as a developer, constructed using React and NextJS.",
-      stacks: ["NextJS", "React", "Framer-Motion", "SASS"],
-    },
-    {
-      imgSrc: projectImages.project3,
-      projectLink: "https://cinemabox.netlify.app/",
-      projectName: "Cinemabox",
-      projectDescription:
-        "It's a CRUD app centered around movies and TV shows. You can explore the latest releases and current blockbusters. Save your favorite movies or TV shows from any era to ensure you don't miss anything. Grab some popcorn!",
-      stacks: ["React", "Express", "NodeJS", "MongoDB"],
-    },
-    {
-      imgSrc: projectImages.project4,
-      projectLink: "https://ivanurra.github.io/elPolitico-videogame/",
-      projectName: "El Político (Videogame)",
-      projectDescription:
-        "A video game created with the challenge of completing it in just four days. I utilized Canvas for the 2D graphics, and it is developed with JavaScript, HTML, & CSS. This project serves as a tribute to the video games of my childhood.",
-      stacks: ["JavaScript", "Canvas", "HTML", "CSS"],
-    },
-  ];
-
   return (
     <div>
       <p className="text-xl mb-5 font-bold block lg:hidden">Projects</p>
-      {projectsData.map((project, index) => (
+      {Object.values(projectData).map((project, index) => (
         <Project key={index} {...project} />
       ))}
     </div>

@@ -1,0 +1,38 @@
+{
+  "project1": {
+    "imgSrc": "/ivanurradevv2.webp",
+    "imgWidth": 1200,
+    "imgHeight": 800,
+    "projectLink": "https://ivanurra.dev/",
+    "projectName": "ivanurra.dev (v2)",
+    "projectDescription": "My new portfolio, developed with Next.js (v13) and TailwindCSS. The aim was to create a minimalist portfolio showcasing my projects and providing easy contact options.",
+    "stacks": ["NextJS", "React", "TailwindCSS"]
+  },
+  "project2": {
+    "imgSrc": "/ivanurradevv1.webp",
+    "imgWidth": 1200,
+    "imgHeight": 800,
+    "projectLink": "https://github.com/ivanurra/portfolio-v1/",
+    "projectName": "ivanurra.dev (v1)",
+    "projectDescription": "My initial portfolio as a developer, constructed using React and NextJS.",
+    "stacks": ["NextJS", "React", "Framer-Motion", "SASS"]
+  },
+  "project3": {
+    "imgSrc": "/cinemabox.webp",
+    "imgWidth": 1200,
+    "imgHeight": 800,
+    "projectLink": "https://cinemabox.netlify.app/",
+    "projectName": "Cinemabox",
+    "projectDescription": "It's a CRUD app centered around movies and TV shows. You can explore the latest releases and current blockbusters. Save your favorite movies or TV shows from any era to ensure you don't miss anything. Grab some popcorn!",
+    "stacks": ["React", "Express", "NodeJS", "MongoDB"]
+  },
+  "project4": {
+    "imgSrc": "/politico.webp",
+    "imgWidth": 1200,
+    "imgHeight": 800,
+    "projectLink": "https://ivanurra.github.io/elPolitico-videogame/",
+    "projectName": "El Político (Videogame)",
+    "projectDescription": "A video game created with the challenge of completing it in just four days. I utilized Canvas for the 2D graphics, and it is developed with JavaScript, HTML, & CSS. This project serves as a tribute to the video games of my childhood.",
+    "stacks": ["JavaScript", "Canvas", "HTML", "CSS"]
+  }
+}
