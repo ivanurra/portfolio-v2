@@ -8,8 +8,8 @@ The second iteration of ivanurra.dev built with NextJS & TailwindCSS and hosted 
 
 - Install all dependencies described in package.json:
 
-```
-$ yarn install
+```bash
+yarn install
 ```
 
 - Run the development server:
