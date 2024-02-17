@@ -19,6 +19,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Head>
         <title>{metadata.title}</title>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content={metadata.description} />
         <meta property="og:title" content={metadata.title} />
         <meta property="og:description" content={metadata.description} />
