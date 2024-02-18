@@ -11,7 +11,7 @@ export const metadata = {
   site_name: "Ivan Urra - DevOps & Full Stack Web Developer",
   title: "ivanurra.dev",
   type: "website",
-  url: "https://ivanurra.dev/",
+  url: "https://ivanurra.dev",
 };
 
 export default function RootLayout({ children }) {
