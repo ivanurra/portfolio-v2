@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Image from "next/image";
-import { ButtonStack } from "../../components";
+import { ButtonStack } from "@components/ButtonStack";
 import projectData from "./projectsData.json";
 
 const Project = ({

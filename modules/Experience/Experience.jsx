@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ButtonStack } from "../../components";
+import { ButtonStack } from "@components/ButtonStack";
 import experienceData from "./experienceData.json";
 
 const ExperienceEntry = ({

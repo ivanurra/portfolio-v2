@@ -1,8 +1,11 @@
 "use client";
 
-import { Footer } from "../../components";
-import { About, Hero, Experience, Projects } from "../../modules";
-import LanternCursor from "../../components/LanternCursor";
+import { Footer } from "@components/Footer";
+import { About } from "@modules/About/About";
+import { Hero } from "@modules/Hero/Hero";
+import { Experience } from "@modules/Experience/Experience";
+import { Projects } from "@modules/Projects/Projects";
+import LanternCursor from "@components/LanternCursor";
 
 export default function Home() {
   return (

@@ -1,4 +1,6 @@
-import { ButtonCV, Navigation, SocialMedia } from "../../components";
+import { ButtonCV } from "@components/ButtonCV";
+import { Navigation } from "@components/Navigation";
+import { SocialMedia } from "@components/SocialMedia";
 
 export const Hero = () => {
   return (
