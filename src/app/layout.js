@@ -1,18 +1,10 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
 import { GTag } from "../../lib/gtag/GTag";
+import { metadata } from "./metadata";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
-
-export const metadata = {
-  description: "Ivan Urra - DevOps & Full Stack Web Developer",
-  image: "https://ivanurra.dev/mockup.png",
-  site_name: "ivanurra.dev",
-  title: "ivanurra.dev",
-  type: "website",
-  url: "https://ivanurra.dev",
-};
 
 export default function RootLayout({ children }) {
   return (
@@ -30,7 +22,9 @@ export default function RootLayout({ children }) {
         <meta property="og:site_name" content={metadata.site_name} />
       </Head>
       <GTag />
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className ? inter.className : "default-font"}>
+        {children}
+      </body>
     </html>
   );
 }
