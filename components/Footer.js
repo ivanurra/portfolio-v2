@@ -5,7 +5,7 @@ export const Footer = () => {
         <p className="text-font-color-secondary text-sm w-65">
           Designed and coded by yours truly. Built with{" "}
           <a
-            className="text-font-color-primary hover:text-green-primary cursor-pointer"
+            className="hover:text-font-color-primary text-green-primary cursor-pointer"
             href="https://nextjs.org/"
             rel="noopener noreferrer"
             target="_blank"
@@ -16,7 +16,7 @@ export const Footer = () => {
           and
           <span> </span>
           <a
-            className="text-font-color-primary hover:text-green-primary cursor-pointer"
+            className="hover:text-font-color-primary text-green-primary cursor-pointer"
             href="https://tailwindcss.com/"
             rel="noopener noreferrer"
             target="_blank"
@@ -25,7 +25,7 @@ export const Footer = () => {
           </a>
           , deployed with<span> </span>
           <a
-            className="text-font-color-primary hover:text-green-primary cursor-pointer"
+            className="hover:text-font-color-primary text-green-primary cursor-pointer"
             href="https://vercel.com/"
             rel="noopener noreferrer"
             target="_blank"
