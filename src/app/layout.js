@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <>
       <Head>
         <title>{metadata.title}</title>
         <meta charSet="UTF-8" />
@@ -25,6 +25,6 @@ export default function RootLayout({ children }) {
       <body className={inter.className ? inter.className : "default-font"}>
         {children}
       </body>
-    </html>
+    </>
   );
 }
