@@ -4,7 +4,7 @@ export const About = () => {
       <div className="md:p-8 mb-16">
         <p className="text-xl mb-4 font-bold block md:hidden">About</p>
         <p className="text-font-color-secondary">
-          Hello! I'm Iván, a DevOps and Full Stack Web Developer. <br /> <br />I
+          Hello! I'm Iván, a Full Stack Web & DevOps Developer. <br /> <br />I
           enjoy{" "}
           <span className="text-font-color-primary">
             creating things that live on the internet.

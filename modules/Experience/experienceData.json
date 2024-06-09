@@ -18,8 +18,26 @@
     "techStack": ["AWS", "Docker", "Kubernetes", "Terraform", "GitHub Actions"]
   },
   {
-    "startDate": "AUG 2021",
+    "startDate": "APR 2023",
     "endDate": "JUN 2023",
+    "company": "Secuoyas",
+    "jobTitle": "Full Stack Web Developer",
+    "website": "https://www.secuoyas.com/",
+    "description": "Develop modern, high-performance, clean, and maintainable code with a focus on griddo.io, the company's proprietary CMS, widely utilized by top universities. Engage with various programming languages and frameworks, including JavaScript, React, and Gatsby. Communication and collaboration with cross-functional teams composed of engineers, designers, and stakeholders on a daily basis.",
+    "techStack": ["JavaScript", "React", "Gatsby"]
+  },
+  {
+    "startDate": "JAN 2023",
+    "endDate": "MAR 2023",
+    "company": "Secuoyas",
+    "jobTitle": "Project Manager",
+    "website": "https://www.secuoyas.com/",
+    "description": "Coordinate developers and designers, act as the main contact between the client and the team, and ensure timely, high-quality project delivery. Develop project plans, monitor progress, and foster a collaborative environment.",
+    "techStack": ["Shortcut", "Kanban"]
+  },
+  {
+    "startDate": "AUG 2021",
+    "endDate": "DEC 2022",
     "company": "Secuoyas",
     "jobTitle": "Full Stack Web Developer",
     "website": "https://www.secuoyas.com/",
