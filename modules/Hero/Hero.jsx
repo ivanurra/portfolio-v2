@@ -6,7 +6,7 @@ export const Hero = () => {
   return (
     <>
       <p className="text-4xl font-bold text-font-color-primary">Iván Urra</p>
-      <p className="text-xl mt-2 text-font-color-primary">
+      <p className="text-2xl mt-2 text-font-color-primary">
         Full Stack Web & DevOps Developer
       </p>
       <div className="overflow-y-auto">
