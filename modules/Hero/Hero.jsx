@@ -7,7 +7,7 @@ export const Hero = () => {
     <>
       <p className="text-4xl font-bold text-font-color-primary">Iván Urra</p>
       <p className="text-2xl mt-2 text-font-color-primary">
-        Full Stack Web & DevOps Developer | Project Manager
+        Full Stack Web Developer | DevOps Developer | Project Manager
       </p>
       <div className="overflow-y-auto">
         <Navigation />
