@@ -6,11 +6,16 @@ import { Hero } from "@modules/Hero/Hero";
 import { Experience } from "@modules/Experience/Experience";
 import { Projects } from "@modules/Projects/Projects";
 import LanternCursor from "@components/LanternCursor";
+// import { UnderConstruction } from "@modules/UnderConstruction/UnderConstruction";
 
 export default function Home() {
   return (
-    <div className="flex flex-col">
+    <div
+      // className="flex items-center justify-center min-h-screen"
+      className="flex flex-col"
+    >
       <LanternCursor />
+      {/* <UnderConstruction /> */}
       <div className="md:w-2/4 md:h-screen p-10 md:fixed left-0 top-0 lg:pl-32 xl:pl-64 2xl:pl-96">
         <Hero />
       </div>
