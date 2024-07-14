@@ -1,12 +1,12 @@
 "use client";
 
-import { Footer } from "@components/Footer";
-import { About } from "@modules/About/About";
-import { Hero } from "@modules/Hero/Hero";
-import { Experience } from "@modules/Experience/Experience";
-import { Projects } from "@modules/Projects/Projects";
+// import { Footer } from "@components/Footer";
+// import { About } from "@modules/About/About";
+// import { Hero } from "@modules/Hero/Hero";
+// import { Experience } from "@modules/Experience/Experience";
+// import { Projects } from "@modules/Projects/Projects";
 import LanternCursor from "@components/LanternCursor";
-// import { UnderConstruction } from "@modules/UnderConstruction/UnderConstruction";
+import { UnderConstruction } from "@modules/UnderConstruction/UnderConstruction";
 
 export default function Home() {
   return (
@@ -15,8 +15,8 @@ export default function Home() {
       className="flex flex-col"
     >
       <LanternCursor />
-      {/* <UnderConstruction /> */}
-      <div className="md:w-2/4 md:h-screen p-10 md:fixed left-0 top-0 lg:pl-32 xl:pl-64 2xl:pl-96">
+      <UnderConstruction />
+      {/* <div className="md:w-2/4 md:h-screen p-10 md:fixed left-0 top-0 lg:pl-32 xl:pl-64 2xl:pl-96">
         <Hero />
       </div>
 
@@ -31,7 +31,7 @@ export default function Home() {
           <Projects />
         </section>
         <Footer />
-      </div>
+      </div> */}
     </div>
   );
 }
